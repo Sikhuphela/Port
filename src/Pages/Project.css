@@ -5,7 +5,7 @@
     top: 0;
     width: 1261px;
 }
-img{
+.imag{
 height: 242px;
 left: 0;
 object-fit: cover;
@@ -21,10 +21,15 @@ width: 360px;
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    top: 250px;
+    top: 260px;
     left: 300px;
-    display: flex; 
     align-items: center; 
+    width: nowrap;
     
   } 
+  .project .bankapp-instanse-instances{
+    left: 899px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
   
