@@ -33,9 +33,10 @@ function Contacts() {
                                         <div className='overlap-group-wrapper'>
                                             <div className='overlap-group'>
                                                 <div className='group-2'>
-                                                    <div className='div-wrapper'>
-                                                        <div className='text-wrapper-4'>Submit</div>
-                                                    </div>
+                                                <div className='div-wrapper'>
+                                                <button className='submit-btn'>Submit</button>
+                                            </div>
+                                            
                                                 </div>
                                             </div>
                                         </div>
