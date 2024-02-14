@@ -1,76 +1,57 @@
 import React from 'react';
-import './Contact.css';
+import './Contact.css'; // Import the CSS file
+import { FaGithub, FaDiscord, FaLinkedin } from 'react-icons/fa';
 
 function Contacts() {
-  return (
-    <section id="contact" className="contact">
-      <div className="container">
-
-        <div className="section-title">
-          <h3>Contact</h3>
-          <p></p>
-        </div>
-
-        <div className="row" data-aos="fade-in">
-
-          <div className="col-lg-5 d-flex align-items-stretch">
-            <div className="info">
-              <div className="address">
-                <i className="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Cape Town</p>
-              </div>
-
-              <div className="email">
-                <i className="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>aphiwesikhuphela@gmail.com</p>
-              </div>
-
-              <div className="phone">
-                <i className="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+27731922743</p>
-              </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style={{ border: 0, width: '100%', height: '290px' }} allowfullscreen></iframe>
+    return (
+        <div className='contact'>
+            <h3>Contact Me</h3>
+            <div className='rectangle'>
+                <iframe 
+                    title="Google Maps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165800.04030341068!2d18.4240553!3d-33.9248685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc500f8826eed7%3A0x687fe1fc2828aa87!2sCape%20Town!5e0!3m2!1sen!2sza!4v1644720678477!5m2!1sen!2sza"
+                    width="250"
+                    height="300"
+                    style={{ border: 0, marginTop: '180px', marginLeft: '10px' }}
+                    allowFullScreen=""
+                    loading="lazy"
+                ></iframe>
             </div>
-          </div>
+            <div className='group'>
+            <div className='overlap'>
+            <div className='text-wrapper'>Message</div>
+            <div className='div'>Email</div>
+            <div className='text-wrapper-2'>Name</div>
+            <div className='text-wrapper-3'>subject</div>
+            <div className='rectangle-1'>
+            <div className='rectangle-2'>
+            <div className='rectangle-3'>
+            <div className='rectangle-4'>
+            <div className='group-wrapper'>
+            <div className='overlap-group-wrapper'>
+            <div className='overlap-group'>
+            <div className='group-2'>
+            <div className='div-wrapper'>
+            <div className='text-wrapper-4'>Submit</div>
+            </div>
+            </div>
+            </div>
 
-          <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" className="php-email-form">
-              <div className="row">
-                <div className="form-group col-md-6">
-                  <label htmlFor="name">Your Name</label>
-                  <input type="text" name="name" className="form-control" id="name" required />
-                </div>
-                <div className="form-group col-md-6">
-                  <label htmlFor="email">Your Email</label>
-                  <input type="email" className="form-control" name="email" id="email" required />
-                </div>
-              </div>
-              <div className="form-group">
-                <label htmlFor="subject">Subject</label>
-                <input type="text" className="form-control" name="subject" id="subject" required />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Message</label>
-                <textarea className="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div className="my-3">
-                <div className="loading">Loading</div>
-                <div className="error-message"></div>
-                <div className="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div className="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
+            </div>
 
-        </div>
+            </div>
 
-      </div>
-    </section>
-  );
+            </div>
+
+            </div>
+            </div>
+           
+            </div>
+            </div>
+            </div>
+            </div>
+      
+    );
 }
 
 export default Contacts;
