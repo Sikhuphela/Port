@@ -13,15 +13,33 @@
   top:250px;
   width: 270px;
 }
+.contact .rectangle{
+  background-color: #027492;
+  box-shadow: inset 0px 4px 4px #00000040, 0px 4px 4px #00000040;
+  height: 554px;
+  position:fixed;
+  left: 275px;
+  top:300px;
+  width: 270px;
+}
+.contact .rectangle-5{
+  background-color: #027492;
+  box-shadow: inset 0px 4px 4px #00000040, 0px 4px 4px #00000040;
+  height: 554px;
+  position:fixed;
+  left: 580px;
+  top:300px;
+  width: 550px;
+}
 .contact .group{
   height: 554px;
   left:600px;
   position: fixed;
-  top: 40px;
+  top: 4px;
   width: 528px;
 }
 .contact .overlap{
-  color: #000000;
+  color: #d13838;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -33,7 +51,7 @@
   width: 127px;
 }
 .contact .div{
-  color: #000000;
+  color: #2c2b30;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -41,7 +59,7 @@
   line-height: normal;
   position: absolute;
   text-shadow: 0px 4px 4px #000000;
-  top:57px;
+  top:-100px;
   white-space: nowrap;
   width: 75px;
 }
@@ -54,7 +72,7 @@
   line-height: normal;
   position: absolute;
   text-shadow: 0px 4px 4px #000000;
-  top:60px;
+  top:-100px;
   white-space: nowrap;
   width: 95px;
 }
@@ -63,11 +81,10 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 400;
-  left: 30px;
+  left: 38px;
   line-height: normal;
   position: absolute;
-  text-shadow: 0px 4px 4px #000000;
-  top:132px;
+  top:-50px;
   white-space: nowrap;
   width: 110px;
 }
@@ -129,18 +146,4 @@ height: 62px;
   position: absolute;
   top: 28px;
   width: 140px;
-}
-.contact .text-wrapper-3{
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  left: 0;
-  line-height: normal;
-  position: absolute;
-  text-shadow: 0px 4px 4px #000000;
-  top:30px;
-  white-space: nowrap;
-  width: 135px;
-  
 }
