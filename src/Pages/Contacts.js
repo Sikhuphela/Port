@@ -6,6 +6,8 @@ function Contacts() {
     return (
         <div className='contact'>
             <h3>Contact Me</h3>
+            
+            {/* Google Maps */}
             <div className='rectangle'>
                 <iframe 
                     title="Google Maps"
@@ -17,40 +19,38 @@ function Contacts() {
                     loading="lazy"
                 ></iframe>
             </div>
+            
+            {/* Contact form */}
             <div className='group'>
-            <div className='overlap'>
-            <div className='text-wrapper'>Message</div>
-            <div className='div'>Email</div>
-            <div className='text-wrapper-2'>Name</div>
-            <div className='text-wrapper-3'>subject</div>
-            <div className='rectangle-1'>
-            <div className='rectangle-2'>
-            <div className='rectangle-3'>
-            <div className='rectangle-4'>
-            <div className='group-wrapper'>
-            <div className='overlap-group-wrapper'>
-            <div className='overlap-group'>
-            <div className='group-2'>
-            <div className='div-wrapper'>
-            <div className='text-wrapper-4'>Submit</div>
+                <div className='overlap'>
+                    <div className='text-wrapper'>Message</div>
+                    <div className='div'>Email</div>
+                    <div className='text-wrapper-2'>Name</div>
+                    <div className='text-wrapper-3'>Subject</div>
+                    
+                    {/* Submit button */}
+                    <div className='rectangle-1'>
+                        <div className='rectangle-2'>
+                            <div className='rectangle-3'>
+                                <div className='rectangle-4'>
+                                    <div className='group-wrapper'>
+                                        <div className='overlap-group-wrapper'>
+                                            <div className='overlap-group'>
+                                                <div className='group-2'>
+                                                    <div className='div-wrapper'>
+                                                        <div className='text-wrapper-4'>Submit</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            </div>
-            </div>
-
-            </div>
-
-            </div>
-
-            </div>
-
-            </div>
-            </div>
-           
-            </div>
-            </div>
-            </div>
-            </div>
-      
+        </div>
     );
 }
 
