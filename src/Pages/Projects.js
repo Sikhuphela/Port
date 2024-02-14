@@ -1,21 +1,20 @@
-// src/components/Projects.js
-import React from 'react'
-import BankingApp from '../../src/components/Images/BankApp.PNG';
+import React from 'react';
+import BankingApp from '../../src/components/Images/bankApp.PNG';
+import './Project.css';
 
 function Projects() {
   return (
     <div className='projects'>
-    <h3>Projects</h3>
-    <div className='box'>
-    <div className='group'>
-    <img className='image' alt='image'src='bankApp.PNG'/>
-    <div className='text-wrapper'>BankApp</div>
-    <BankingApp className='bankapp-instanse' href=''></BankingApp></div>
-
+      <h3>Projects</h3>
+      <div className='box'>
+        <div className='group'>
+          <img className='imag' alt='BankApp' src={BankingApp} />
+          <div className='text-wrapper'>BankApp</div>
+          <a className='bankapp-instanse' href=''>BankingApp</a>
+        </div>
+      </div>
     </div>
-    </div>
-    
-  )
+  );
 }
 
 export default Projects;
