@@ -1,8 +1,12 @@
-.contact{
-  height:554px;
-  width: 270px;
- 
+.contact-container {
+  display: flex;
+  flex-direction: column;
+}
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  background-color: #58ABC1;
 }
 
 .contact .rectangle{
@@ -15,12 +19,12 @@
   width: 270px;
 }
 .contact .rectangle-5{
-  background-color: #027492;
+  background-color: hsl(193, 15%, 52%);
   box-shadow: inset 0px 4px 4px #00000040, 0px 4px 4px #00000040;
-  height: 554px;
+  height: 520px;
   position:fixed;
   left: 580px;
-  top:300px;
+  top:250px;
   width: 550px;
 }
 
@@ -161,7 +165,13 @@ height: 62px;
   justify-content: center;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+.contact .submit-btn:hover {
+  background-color: #58abc1; 
+}
+
 .contact .text-wrapper {
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
