@@ -16,31 +16,56 @@
     top: 0;
     width: 1261px;
 }
-.imag{
-height: 242px;
-left: 0;
-object-fit: cover;
-position: absolute;
-top: 300px;
-left: 300px;
-width: 360px;
+.imag {
+  position: relative;
+  right: 140px;
+  width: 360px;
+  height: 242px;
+  border-radius: 15px;
+  transition: transform 0.5s;
 }
- .text-wrapper{
-    color: #f0edcf;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: normal;
-    position: absolute;
-    top: 260px;
-    left: 300px;
-    align-items: center; 
-    width: nowrap;
-    
-  } 
-  .project .bankapp-instanse-instances{
-    left: 899px !important;
-    position: absolute !important;
-    top: 0 !important;
-  }
-  
+
+.layer {
+  position: absolute;
+  top:300px;
+  left: 350px;
+  width: 360px;
+  height: 242px;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+  border-radius: 15px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.group:hover .layer {
+  opacity: 1;
+}
+
+.layer p {
+  color: #fff;
+  max-width: 90%;
+  text-align: center;
+}
+
+.layer a {
+  margin-top: 20px;
+  color: #ff004f;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.group:hover .imag {
+  transform: scale(1.1);
+}

@@ -10,7 +10,15 @@ function Projects() {
         <div className='group'>
           <img className='imag' alt='BankApp' src={BankingApp} />
           <div className='text-wrapper'>BankApp</div>
-          <a className='bankapp-instanse' href=''>BankingApp</a>
+          <div className="work">
+            <div className="layer">
+              <p>User-friendly online banking application designed for easy financial management.
+                Users can register by providing basic information, receiving a unique account number and PIN for secure access.
+                The application allows users to check balance, make secure deposits,
+                and conveniently withdraw funds, ensuring a safe and efficient banking experience.</p>
+              <a href="https://github.com/Sikhuphela/Banking-App.git"><i className="uil uil-github-alt"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -18,3 +26,4 @@ function Projects() {
 }
 
 export default Projects;
+
