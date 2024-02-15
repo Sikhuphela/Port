@@ -1,6 +1,8 @@
 import React from 'react';
 import BankingApp from '../../src/components/Images/bankApp.PNG';
 import Portfolio from '../../src/components/Images/portfolio.png';
+import FAC from '../../src/components/Images/Financial-calculator.PNG';
+import tax from '../../src/components/Images/TaxCalculator.png';
 import './Projects.css';
 import { FaGithub } from 'react-icons/fa';
 
@@ -29,6 +31,31 @@ function Projects() {
     <div className="layer-1">
       <p>User-friendly online portfolio showcasing my projects and skills. Designed with HTML, CSS, and JavaScript. Includes project descriptions, links to GitHub repositories, and contact information.</p>
       <a href="https://github.com/Sikhuphela/Portfolio.git">
+        <FaGithub /> {/* GitHub icon */}
+      </a>
+    </div>
+  </div>
+</div>
+<div className='calculator-3'>
+  <img className='calculator' alt='fac' src={FAC} />
+  <div className='text-wrapper-2'>Financial calculator</div>
+  <div className="work-2">
+    <div className="layer-2">
+      <p>User-friendly description of project 3.</p>
+      <a href="https://github.com/yourusername/project3.git">
+        <FaGithub /> {/* GitHub icon */}
+      </a>
+    </div>
+  </div>
+</div>
+
+<div className='group-4'>
+  <img className='Taxc' alt='Tax' src={tax} />
+  <div className='text-wrapper-3'>Tax Calculator</div>
+  <div className="work-3">
+    <div className="layer-3">
+      <p>User-friendly description of project 4.</p>
+      <a href="https://github.com/yourusername/project4.git">
         <FaGithub /> {/* GitHub icon */}
       </a>
     </div>
