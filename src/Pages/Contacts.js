@@ -1,8 +1,8 @@
 import React from 'react';
 import './Contact.css';
-import { FaGithub, FaDiscord, FaLinkedin } from 'react-icons/fa';
-import { FaPhone,FaMapMarkerAlt  } from 'react-icons/fa';
-function Contacts() {
+import { Link } from 'react-router-dom';
+import { FaPhone,FaHome,FaMapMarkerAlt  } from 'react-icons/fa';
+function Contacts() { 
     return (
         <div className='contact-container'>
             <h3>Contact Me</h3>
@@ -12,7 +12,7 @@ function Contacts() {
                         <div className='icon'><FaPhone /></div>
                         <div className='text'>0731922743</div>
                     </div>
-            <div className='label2'>
+                    <div className='label2'>
                     <div className='icon2'><FaMapMarkerAlt/></div>
                     <div className='text2'>Cape Town</div>
                 </div>
@@ -56,7 +56,21 @@ function Contacts() {
                 </div>
             </form>
         </div>
-        
+        <footer className='footer'>
+        <div className='footer-content'>
+            <div className='footer-icon' style={{ color: 'white', marginLeft: '900px' }}>
+                <Link to="/home">
+                    <FaHome />
+                </Link>
+            </div>
+        </div>
+        <div className='lab'>
+            <div className='copy'>Copyright @ Aphiwe Sikhuphela - all Rights Reserved</div>
+        </div>
+    </footer>
+  );
+
+
         </div>
         </div>
     
