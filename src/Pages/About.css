@@ -1,15 +1,5 @@
 /* About.css */
-.about-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /*.about {
-    background-color: #58ABC1;
-    height: 1000px;
-    position: relative;
-    width: 836px;
-  }*/
+
   .about {
     display: flex;
     flex-direction: column;

@@ -17,7 +17,7 @@
     width: 1261px;
 }
 .imag {
-  top: 80px;
+  top: 330px;
   position: relative;
   right: 150px;
   width: 360px;
@@ -99,7 +99,7 @@
 
 
 .photo {
-  top: -180px;
+  top: 70px;
   position: relative;
   left: 300px;
   width: 360px;
@@ -177,9 +177,9 @@
   width: 1261px;
 }
 .calculator {
-  top: 200px;
+  top: 130px;
   position: relative;
-  right: -50px;
+  right: 150px;
   width: 360px;
   height: 242px;
   border-radius: 15px;
@@ -193,15 +193,15 @@
   left: 300px;
   line-height: normal;
   position: absolute;
-  top:580px;
+  top:560px;
   white-space: nowrap;
   width: 95px;
 }
 
 .layer-2 {
   position: absolute;
-  top: 550px;
-  left: 280px;
+  top: 610px;
+  left: 300px;
   width: 360px;
   height: 242px;
   background: linear-gradient(#F0EDCF, #9CD0DE, #F0EDCF, #9CD0DE);
@@ -216,7 +216,7 @@
   box-sizing: border-box;
 }
 
-.calculator-3:hover .layer-2 { /* Corrected selector */
+.calculator-3:hover .layer-2 {
   opacity: 1;
 }
 
@@ -258,39 +258,47 @@
   border-radius: 15px;
   transition: transform 0.5s;
 }
+.Taxc{
+  top: -330px;
+  position: relative;
+  right: -200px;
+  width: 360px;
+  height: 242px;
+  border-radius: 15px;
+  transition: transform 0.5s;
+  
+}
 
 .projects .text-wrapper-3 {
   color: #F0EDCF;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  left: 300px;
+  left: 200px;
   line-height: normal;
   position: absolute;
-  top: 580px;
+  top: -370px;
   white-space: nowrap;
   width: 95px;
 }
 
 .layer-3 {
   position: absolute;
-  top: 550px;
-  left: 280px;
+  top: -330px;
+  left: 200px;
   width: 360px;
   height: 242px;
   background: linear-gradient(#F0EDCF, #9CD0DE, #F0EDCF, #9CD0DE);
   border-radius: 15px;
-  opacity: 0;
-  transition: opacity 0.5s;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
-.calculator-3:hover .layer-3 { /* Corrected selector */
+.group-4:hover .layer-3 { 
   opacity: 1;
 }
 
@@ -319,6 +327,7 @@
   text-align: center;
 }
 
-.group-4:hover .Taxc { /* Corrected image class */
+.group-4:hover .Taxc { 
   transform: scale(1.1);
 }
+

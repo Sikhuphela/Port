@@ -43,7 +43,7 @@ function Projects() {
     <div className="layer-2">
       <p>User-friendly description of project 3.</p>
       <a href="https://github.com/yourusername/project3.git">
-        <FaGithub /> {/* GitHub icon */}
+        <FaGithub /> 
       </a>
     </div>
   </div>
@@ -56,7 +56,7 @@ function Projects() {
     <div className="layer-3">
       <p>User-friendly description of project 4.</p>
       <a href="https://github.com/yourusername/project4.git">
-        <FaGithub /> {/* GitHub icon */}
+        <FaGithub /> 
       </a>
     </div>
   </div>
