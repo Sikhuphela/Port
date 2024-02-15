@@ -1,6 +1,6 @@
 import React from 'react';
 import BankingApp from '../../src/components/Images/bankApp.PNG';
-import './Project.css';
+import './Projects.css';
 
 function Projects() {
   return (
