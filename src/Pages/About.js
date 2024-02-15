@@ -11,13 +11,14 @@ function About() {
     <div className="about">
       <div className="group">
         <img className="IMG" alt="Img" src={picImage1} />
-        <div className="overlap">
-          <div className="text-wrapper"><FontAwesomeIcon icon={faUtensils} style={{ color: "#f0edcf" }} /> Cooking</div>
-        </div>
+       
         <div className="div">Hobbies</div>
         <div className="overlap-group">
           <div className="text-wrapper-2"><FontAwesomeIcon icon={faBook} style={{ color: "#f0edcf" }} /> Reading</div>
         </div>
+        <div className="overlap">
+        <div className="cooking"><FontAwesomeIcon icon={faUtensils} style={{ color: "#f0edcf" }} /> Cooking</div>
+      </div>
         <div className="text-wrapper-3">
           <FontAwesomeIcon icon={faCode} style={{ color: "#f0edcf" }} />
           <span>Coding</span>
