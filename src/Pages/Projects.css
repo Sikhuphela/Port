@@ -1,13 +1,11 @@
-.project-container {
-  
-    display: flex;
-    flex-direction: column;
-  }
+
  
   .projects {
-    display: flex;
+    display: fixed;
     flex-direction: column;
     background-color: #58ABC1;
+   
+    
   }
 .project .group{
     height: 288px;
@@ -67,14 +65,14 @@
   font-weight: 400;
   line-height: normal;
   position: absolute;
-  top: 85px;
+  top: 50px;
   left: 50px;
   display: flex; 
   align-items: center; 
 }
 
 .layer a {
-  margin-top: 200px;
+  margin-top: 150px;
   color: #438192;
   text-decoration: none;
   font-size: 18px;
@@ -120,10 +118,10 @@
   width: 95px;
 }
 
-/* Update position and styles for the paragraph */
+
 .layer-1 {
   position: absolute;
-  top: 285px; /* Place the paragraph below the image */
+  top: 285px; 
   left: 755px;
   width: 360px;
   height: 242px;
@@ -159,7 +157,7 @@
 
 /* Update position and styles for the GitHub icon */
 .layer-1 a {
-  margin-top: 200px;
+  margin-top: 150px;
   color: #438192;
   text-decoration: none;
   font-size: 18px;
@@ -227,14 +225,14 @@
   font-weight: 400;
   line-height: normal;
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 50px;
   display: flex;
   align-items: center;
 }
 
 .layer-2 a {
-  margin-top: 200px;
+  margin-top: 150px;
   color: #438192;
   text-decoration: none;
   font-size: 18px;
@@ -309,14 +307,14 @@
   font-weight: 400;
   line-height: normal;
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 50px;
   display: flex;
   align-items: center;
 }
 
 .layer-3 a {
-  margin-top: 200px;
+  margin-top: 150px;
   color: #438192;
   text-decoration: none;
   font-size: 18px;
