@@ -17,21 +17,34 @@
     width: 1261px;
 }
 .imag {
+  top: 80px;
   position: relative;
-  right: 140px;
+  right: 150px;
   width: 360px;
   height: 242px;
   border-radius: 15px;
   transition: transform 0.5s;
 }
+.projects .text-wrapper{
+  color: #F0EDCF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  left: 315px;
+  line-height: normal;
+  position: absolute;
+  top:250px;
+  white-space: nowrap;
+  width: 95px;
+}
 
 .layer {
   position: absolute;
-  top:300px;
+  top:298px;
   left: 305px;
-  width: 390px;
-  height: 262px;
-  background: linear-gradient( #1a6275,#F0EDCF,#9CD0DE);
+  width: 360px;
+  height: 242px;
+  background: linear-gradient( #F0EDCF,#9CD0DE,#F0EDCF,#9CD0DE);
   border-radius: 15px;
   opacity: 0;
   transition: opacity 0.5s;
@@ -75,4 +88,84 @@
 
 .group:hover .imag {
   transform: scale(1.1);
+}
+
+.project .group-2 {
+  position: relative;
+}
+.group-2:hover .photo {
+  transform: scale(1.1);
+}
+
+
+.photo {
+  top: -180px;
+  position: relative;
+  left: 300px;
+  width: 360px;
+  height: 242px;
+  border-radius: 15px;
+  transition: transform 0.5s;
+}
+.projects .text-wrapper-1{
+  color: #F0EDCF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  left: 750px;
+  line-height: normal;
+  position: absolute;
+  top:250px;
+  white-space: nowrap;
+  width: 95px;
+}
+
+/* Update position and styles for the paragraph */
+.layer-1 {
+  position: absolute;
+  top: 285px; /* Place the paragraph below the image */
+  left: 755px;
+  width: 360px;
+  height: 242px;
+  padding: 20px;
+  background: linear-gradient(#f0edcf, #9cd0de, #f0edcf, #9cd0de);
+  border-radius: 15px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Adjust hover effect for the paragraph */
+.group-2:hover .layer-1 {
+  opacity: 1;
+}
+
+/* Update position and styles for the paragraph text */
+.layer-1 p {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 85px;
+  left: 50px;
+  display: flex; 
+  align-items: center; 
+}
+
+/* Update position and styles for the GitHub icon */
+.layer-1 a {
+  margin-top: 200px;
+  color: #438192;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
 }
