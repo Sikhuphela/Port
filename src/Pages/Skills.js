@@ -1,12 +1,52 @@
 // src/components/Skills.js
-import React from 'react'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHtml5, faCss3Alt, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
+
 function Skills() {
   return (
-    <div className='skills'>
-    <h3>My Skills</h3>
-      
-    </div>
-  )
+    <section>
+      <div className='skills'>
+        <h3>My Skills</h3>
+
+        <h1 className='heading'>Frontend skills</h1>
+        <div className='Technical-bas'>
+          <div className='bar'>
+            <div className='info'>
+              <span><FontAwesomeIcon icon={faHtml5} /> HTML</span>
+            </div>
+            <div className='progress-line html'>
+              <span></span>
+            </div>
+          </div>
+          <div className='bar'>
+            <div className='info'>
+              <span><FontAwesomeIcon icon={faCss3Alt} /> CSS</span>
+            </div>
+            <div className='progress-line css'>
+              <span></span>
+            </div>
+          </div>
+          <div className='bar'>
+            <div className='info'>
+              <span><FontAwesomeIcon icon={faJs} /> JavaScript</span>
+            </div>
+            <div className='progress-line javascript'>
+              <span></span>
+            </div>
+          </div>
+          <div className='bar'>
+            <div className='info'>
+              <span><FontAwesomeIcon icon={faReact} /> ReactJs</span>
+            </div>
+            <div className='progress-line reactjs'>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Skills;

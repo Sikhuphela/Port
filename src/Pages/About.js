@@ -26,8 +26,9 @@ function About() {
         <div className="text-wrapper-4">Aphiwe sikhuphela</div>
         <div className="text-wrapper-5"><FontAwesomeIcon icon={faGlobe} style={{ color: "#f0edcf" }} /> Culture Studies</div>
         <div className="group-2">
-          <div className="text-wrapper-6"><FontAwesomeIcon icon={faDownload} style /> Download CV</div>
-        </div>
+       <button className="btn">Download CV</button>
+          </div>
+
         <div className="text-wrapper-7">Interests</div>
         <div className="group-wrapper">
           <div className="div-wrapper">
