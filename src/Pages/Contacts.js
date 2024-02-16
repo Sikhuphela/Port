@@ -58,7 +58,7 @@ function Contacts() {
         </div>
         <footer className='footer'>
         <div className='footer-content'>
-            <div className='footer-icon' style={{ color: 'white', marginLeft: '900px' }}>
+            <div className='footer-icon' style={{ color: 'white', marginLeft: '900px' , marginTop: '5px'}}>
                 <Link to="/home">
                     <FaHome />
                 </Link>
