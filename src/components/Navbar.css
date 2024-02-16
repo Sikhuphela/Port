@@ -48,7 +48,7 @@
 
 }
 .nav-text a:hover{
-    background-color:#1a83ff ;
+    background-color:#027492;
 }
 .nav-menu-items{
     width: 100%;
@@ -72,5 +72,5 @@ span{
 .social-icon {
     margin-left: 10px; 
     color: #f0decf; 
-    font-size: 24px; /* Keep the size of the icons */
+    font-size: 24px; 
 }

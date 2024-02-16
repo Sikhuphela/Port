@@ -10,7 +10,7 @@ function Contacts() {
             <div className='rectangle'>
             <div className='label'>
                         <div className='icon'><FaPhone /></div>
-                        <div className='text'>0731922743</div>
+                        <div className='text'>+2731922743</div>
                     </div>
                     <div className='label2'>
                     <div className='icon2'><FaMapMarkerAlt/></div>
@@ -58,9 +58,9 @@ function Contacts() {
         </div>
         <footer className='footer'>
         <div className='footer-content'>
-            <div className='footer-icon' style={{ color: 'white', marginLeft: '900px' , marginTop: '5px'}}>
-                <Link to="/home">
-                    <FaHome />
+            <div className='footer-icon' >
+                <Link to="/">
+                    <FaHome style={{color: '#f0edcf'}} />
                 </Link>
             </div>
         </div>
@@ -68,13 +68,11 @@ function Contacts() {
             <div className='copy'>Copyright @ Aphiwe Sikhuphela - all Rights Reserved</div>
         </div>
     </footer>
-  );
-
-
-        </div>
+    </div>
         </div>
     
-    );
+  );
+        
 }
 
 export default Contacts;

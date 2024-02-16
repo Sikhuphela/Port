@@ -212,7 +212,7 @@ height: 62px;
 .footer{
   background-color: #64C6DF;
   box-shadow:  inset 0px 4px 4px #00000040, 0px 4px 4px #00000040;
-  height: 30px;
+  height: 40px;
   left: 0;
   position: fixed;
   top: 820px;
@@ -226,13 +226,14 @@ height: 62px;
   left: 500px;
   line-height: normal;
   position: absolute;
-  top:5px;
+  top:10px;
   white-space: nowrap;
   width: 95px;
   
 }
- .footer-icon{
-  color: #f0edcf;
-  margin-right: 5px; 
-  top: 5px;
+.footer-icon {
+  margin-left: 880px; 
+  font-size: 30px; 
+  top: 10px;
 }
+
