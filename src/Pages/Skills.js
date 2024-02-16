@@ -10,7 +10,7 @@ function Skills() {
 
         <h1 className='heading'>Frontend skills</h1>
         <div className='Technical-bas'>
-          <div className='bar'> <FontAwesomeIcon icon={faHtml5} />
+          <div className='bar'><FontAwesomeIcon icon={faHtml5} style={{ color: '#f0edcf' }} />
             <div className='info'>
               <span>HTML</span>
             </div>
@@ -18,7 +18,7 @@ function Skills() {
               <span></span>
             </div>
           </div>
-          <div className='bar'><FontAwesomeIcon icon={faCss3Alt} /> 
+          <div className='bar'><FontAwesomeIcon icon={faCss3Alt}  style={{ color: '#f0edcf' }} /> 
             <div className='info'>
               <span>CSS</span>
             </div>
@@ -26,7 +26,7 @@ function Skills() {
               <span></span>
             </div>
           </div>
-          <div className='bar'><FontAwesomeIcon icon={faJs} />
+          <div className='bar'><FontAwesomeIcon icon={faJs}  style={{ color: '#f0edcf' }}  />
             <div className='info'>
               <span> JavaScript</span>
             </div>
@@ -34,7 +34,7 @@ function Skills() {
               <span></span>
             </div>
           </div>
-          <div className='bar'><FontAwesomeIcon icon={faReact} />
+          <div className='bar'><FontAwesomeIcon icon={faReact}  style={{ color: '#f0edcf' }} />
             <div className='info'>
               <span> ReactJs</span>
             </div>
