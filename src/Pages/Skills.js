@@ -17,10 +17,19 @@ function Skills() {
       <span class="ani">d</span>
     </div>
     
+    
    <div className='container1' id='Skills'>
-        <h1 className='heading1'>Technical Skills</h1>
+        <div class="text-1"> 
+      <span class="ani">f</span> 
+      <span class="ani">r</span>
+      <span class="ani">o</span>
+      <span class="ani">n</span> 
+      <span class="ani">t</span> 
+      <span class="ani">e</span> 
+      <span class="ani">n</span>
+      <span class="ani">d</span>
+    </div>
         <div className='Technical-bars'>
-        
           <div className='bar'>
             <FontAwesomeIcon icon={faHtml5} style={{ color: '#f0edcf' }} />
             <div className='info'>
