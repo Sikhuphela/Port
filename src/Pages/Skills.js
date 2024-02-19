@@ -8,7 +8,7 @@ function Skills() {
     <section>
         <h3>My Skills</h3>
         <div className='container1' id='Skills'>
-        <h1 className='heading'>Technical Skills</h1>
+        <h1 className='heading1'>Technical Skills</h1>
         <div className='Technical-bars'>
           <div className='bar'><FontAwesomeIcon icon={faHtml5} style={{ color: '#f0edcf' }} />
             <div className='info'>
@@ -48,6 +48,7 @@ function Skills() {
       <div className='container1'>
       <h1 className='heading1'>Backend Skills</h1>
       <div className='radial-bars'>
+      
       <svg x ='0px' y='0px' viewBox='0 0 200 200'>
       <circle className='progress-bar' cx='100' cy='100' r='80'></circle>
       <circle className='path path-1' cx='100' cy='100' r='80'></circle>
