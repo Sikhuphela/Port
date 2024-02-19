@@ -15,55 +15,66 @@ section{
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    margin-top: 200PX;
 }
 .heading{
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 .bar{
-    font-size: 30px;
+    font-size: 23px;
    
 
 }
-.Technical-bars .bar{
+.Technical-bars .bar {
     margin-top: 40px 0;
-
-}
+  }
 .Technical-bars .bar:first-child{
-    margin-top:0;  
+    margin-top: 0;
 }
-.Technical-bars .bar:first-child{
-    margin-top:5px;  
+.Technical-bars .bar:last-child{
+    margin-top: 0;
 }
-.Technical-bars .bar .info{
-    margin-top:5px;  
-}
-.Technical-bars .bar .info span{
-    font-size: 17px; 
-    font-weight: 500;
-    animation: showText 0.5s 1s linear forwards;
+.Technical-bars .info {
+    margin-top: 5px;
+  }
+  .Technical-bars .info .span {
+    margin-top: 17px;
+    font-size: 500;
+    animate:showText 0.5s 1s linear forwards;
     opacity: 0;
-}
-.Technical-bars .bar .progress-line{
+  }
+ 
+  
+  .Technical-bars .bar .progress-line {
     position: relative;
     border-radius: 10px;
     width: 100%;
-    height: 5px;
-    background-color: #000000 ;
-    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scale(0);
+    height: 10px; /* Increase the height of the progress line */
+    background-color: #000000;
+  }
+  
+  .Technical-bars .bar .progress-line span {
+    height: 100%;
+    background-color: #0cf;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
+    transform: scaleX(0); /* Fix the transform property */
     transform-origin: left;
-}
-@keyframes animate{
-    100%{
-        transform: scale(1);
+  }
+  
+  .Technical-bars .bar .progress-line.html span {
+    width: 80%; /* Adjust the width as per the progress */
+  }
+  
+  @keyframes animate {
+    100% {
+      transform: scaleX(1); /* Fix the transform property */
     }
-
-}
-.Technical-bars .bar .progress-line span{
-
-}
+  }
+  
