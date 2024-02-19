@@ -7,9 +7,20 @@ function Skills() {
   return (
     <section>
       <h3>My Skills</h3>
+      <div class="text"> 
+      <span class="ani">b</span> 
+      <span class="ani">a</span>
+      <span class="ani">c</span>
+      <span class="ani">k</span> 
+      <span class="ani">e</span> 
+      <span class="ani">n</span> 
+      <span class="ani">d</span>
+    </div>
+    
    <div className='container1' id='Skills'>
         <h1 className='heading1'>Technical Skills</h1>
         <div className='Technical-bars'>
+        
           <div className='bar'>
             <FontAwesomeIcon icon={faHtml5} style={{ color: '#f0edcf' }} />
             <div className='info'>
@@ -50,16 +61,7 @@ function Skills() {
       </div>
 
 
-      <div class="text"> 
-  <span class="ani">b</span> 
-  <span class="ani">a</span>
-  <span class="ani">c</span>
-  <span class="ani">k</span> 
-  <span class="ani">e</span> 
-  <span class="ani">n</span> 
-  <span class="ani">d</span>
-</div>
-
+   
 <div class="loader">
   <div class="intern"></div>
   <div class="external-shadow">
