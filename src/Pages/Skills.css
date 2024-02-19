@@ -1,13 +1,15 @@
-section {
+.section {
     display: flex;
     flex-wrap: wrap;
   }
   
   .container1 {
-    width: 600px;
+    width: 550px;
     height: 500px;
     padding: 75px;
-    margin-left: 90px;
+
+    margin-left: 250px;
+    
   }
   
   .heading1 {
@@ -15,8 +17,8 @@ section {
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
-    margin-bottom: 50px;
-    margin-top: 200px;
+    margin-bottom: 75px;
+    margin-top: 100px;
   }
   
   .heading {
@@ -25,6 +27,7 @@ section {
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
     margin-top: 150px;
+    
   }
   
   .bar {
@@ -59,32 +62,31 @@ section {
     border-radius: 10px;
     width: 100%;
     height: 5px;
-    background-color: #000000;
-    animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
-    transform: scaleX(0);
+    background-color:  #0ef;
+    transform: scaleX(1);
     transform-origin: left;
   }
   
   .Technical-bars .bar .progress-line span {
     height: 100%;
-    background-color: #0ef;
+    background-color: #000;
     position: absolute;
     border-radius: 10px;
-    animation: animate 1s 1s cubic-bezier(1, 0, 0, 5) forwards;
-    transform: scaleX(0);
+    transform: scaleX(1);
     transform-origin: left;
+    animation: animate 1s cubic-bezier(1, 0, 0, 5) forwards, load 1s ease-in-out forwards;
   }
   
   .progress-line.html span {
-    width: 80%;
+    width: 20%;
   }
   
   .progress-line.css span {
-    width: 70%;
+    width: 40%;
   }
   
   .progress-line.javascript span {
-    width: 70%;
+    width: 40%;
   }
   
   .progress-line.reactjs span {
@@ -135,49 +137,388 @@ section {
     opacity: 0;
   }
   
-  @keyframes showtext {
+  @keyframes animate {
     100% {
-      opacity: 1;
+      transform: scaleX(1);
     }
   }
   
-  .radial-bars {
-    width: 100%;
-    height: 170px;
+  @keyframes load {
+    0% {
+      width: 100%;
+      left: 30px;
+      right: auto;
+    }
+  
+    70% {
+      width: 100%;
+    }
+  
+    100% {
+      right: 0;
+      left: auto;
+    }
+  }
+  
+  .text {
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 800px;
+    margin-top: 200px;
+  }
+  .ani:nth-child(1) {
+    animation: ani1 2.1s ease-in-out 14s infinite;
+  }
+  
+  @keyframes ani1 {
+    50% {
+      font-size: 40px;
+    }
+  }
+  
+  .ani:nth-child(2) {
+    animation: ani2 2.1s ease-in-out 12s infinite;
+  }
+  
+  @keyframes ani2 {
+    50% {
+      font-size: 40px;
+    }
+  }
+  
+  .ani:nth-child(3) {
+    animation: ani3 2.1s ease-in-out 10s infinite;
+  }
+  
+  @keyframes ani3 {
+    50% {
+      font-size: 40px;
+    }
+  }
+  
+  .ani:nth-child(4) {
+    animation: ani4 2.1s ease-in-out 8s infinite;
+  }
+  
+  @keyframes ani4 {
+    50% {
+      font-size: 40px;
+    }
+  }
+  
+  .ani:nth-child(5) {
+    animation: ani5 2.1s ease-in-out 6s infinite;
+  }
+  
+  @keyframes ani5 {
+    50% {
+      font-size: 40px;
+    }
+  }
+  
+  .ani:nth-child(6) {
+    animation: ani6 2.1s ease-in-out 4s infinite;
+  }
+  
+  @keyframes ani6 {
+    50% {
+      font-size: 40px;
+    }
+  }
+  
+  .ani:nth-child(7) {
+    animation: ani7 2.1s ease-in-out 2s infinite;
+  }
+  
+  @keyframes ani7 {
+    50% {
+      font-size: 40px;
+    }
+  }  
+  .loader {
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-  }
-  
-  .radial-bars .radial-bar {
-    width: 50%;
-    height: 170px;
-    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    cursor: not-allowed;
+    scale: 0.7;
+    top: -250px;
+    left: 400px;
   }
   
-  .radial-bars .radial-bar svg {
+  .central {
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+    position: relative;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    box-shadow: 0.5em 1em 1em blueviolet,
+      -0.5em 0.5em 1em blue,
+      0.5em -0.5em 1em purple,
+      -0.5em -0.5em 1em cyan;
+  }
+  
+  .external-shadow {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0.5em 0.5em 3em blueviolet,
+      -0.5em 0.5em 3em blue,
+      0.5em -0.5em 3em purple,
+      -0.5em -0.5em 3em cyan;
+    z-index: 999;
+    animation: rotate 20s linear ;
+    background-color: #212121;
+  }
+  
+  .intern {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-90deg);
-    width: 120px;
-    height: 160px;
+    color: white;
+    z-index: 9999;
   }
   
-  .radial-bars .radial-bar .progress-bar {
-    stroke-width: 10;
-    stop-color: #000;
-    fill: transparent;
-    stroke-dasharray: 502;
-    stroke-dashoffset: 502;
-    stroke-linecap: round;
-    animation: animate-bar 1s linear forwards;
+  .intern::before {
+    content: "75%";
+    animation: percent 5s ease-in-out ;
   }
   
-  @keyframes animate-bars {
-    100% {
-      stroke-dashoffset: -1;
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    50% {
+      transform: rotate(180deg);
+    }
+  
+    75% {
+      transform: rotate(360deg);
     }
   }
   
+  @keyframes percent {
+    0% {
+      content: '0%';
+    }
+  
+    25% {
+      content: '25%';
+    }
+  
+    33% {
+      content: '33%';
+    }
+  
+    42% {
+      content: '42%';
+    }
+  
+    51% {
+      content: '51%';
+    }
+  
+    67% {
+      content: '67%';
+    }
+  
+    74% {
+      content: '74%';
+    }
+  
+    75% {
+      content: '75%';
+      animation-play-state: paused; 
+    }
+  }
+  .loader-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: not-allowed;
+    scale: 0.7;
+    top: -250px;
+    left: 400px;
+  }
+  
+  .central-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    box-shadow: 0.5em 1em 1em blueviolet,
+      -0.5em 0.5em 1em blue,
+      0.5em -0.5em 1em purple,
+      -0.5em -0.5em 1em cyan;
+  }
+  
+  .external-shadow-2 {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0.5em 0.5em 3em blueviolet,
+      -0.5em 0.5em 3em blue,
+      0.5em -0.5em 3em purple,
+      -0.5em -0.5em 3em cyan;
+    z-index: 999;
+    animation: rotate 20s linear infinite;
+    background-color: #212121;
+  }
+  
+  .intern-2 {
+    position: absolute;
+    color: white;
+    z-index: 9999;
+  }
+  
+  .intern-2::before {
+    content: "67%";
+    animation: percent 2s ease-in-out infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    50% {
+      transform: rotate(180deg);
+    }
+  
+    67% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes percent {
+    0% {
+      content: '0%';
+    }
+  
+    25% {
+      content: '25%';
+    }
+  
+    33% {
+      content: '33%';
+    }
+  
+    42% {
+      content: '42%';
+    }
+  
+    51% {
+      content: '51%';
+    }
+  
+    67% {
+      content: '67%';
+    }
+  
+    
+    }
+    .loader-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        cursor: not-allowed;
+        scale: 0.7;
+        top: -250px;
+        left: 400px;
+      }
+      
+      .central-3 {
+        display: flex;
+        justify-content: center;
+      
+        align-items: center;
+        position: relative;
+        width: 10em;
+        height: 10em;
+        border-radius: 50%;
+        box-shadow: 0.5em 1em 1em blueviolet,
+          -0.5em 0.5em 1em blue,
+          0.5em -0.5em 1em purple,
+          -0.5em -0.5em 1em cyan;
+      }
+      
+      .external-shadow-3 {
+        width: 10em;
+        height: 10em;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        box-shadow: 0.5em 0.5em 3em blueviolet,
+          -0.5em 0.5em 3em blue,
+          0.5em -0.5em 3em purple,
+          -0.5em -0.5em 3em cyan;
+        z-index: 999;
+        animation: rotate 20s linear infinite;
+        background-color: #212121;
+      }
+      
+      .intern-3 {
+        position: absolute;
+        color: white;
+        z-index: 9999;
+      }
+      
+      .intern-3::before {
+        content: "50%";
+        animation: percent 2s ease-in-out infinite;
+      }
+      
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+      
+        50% {
+          transform: rotate(180deg);
+        }
+      
+      }
+      
+      @keyframes percent {
+        0% {
+          content: '0%';
+        }
+      
+        25% {
+          content: '25%';
+        }
+      
+        33% {
+          content: '33%';
+        }
+      
+        42% {
+          content: '42%';
+        }
+      
+        50% {
+          content: '50%';
+        }
+        
+      
+    }
+    
+

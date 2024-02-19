@@ -7,7 +7,7 @@ function Skills() {
   return (
     <section>
       <h3>My Skills</h3>
-      <div className='container1' id='Skills'>
+   <div className='container1' id='Skills'>
         <h1 className='heading1'>Technical Skills</h1>
         <div className='Technical-bars'>
           <div className='bar'>
@@ -49,46 +49,38 @@ function Skills() {
         </div>
       </div>
 
-      <div className='container1'>
-        <h1 className='heading1'>Backend Skills</h1>
-        <div className='radial-bars'>
-          <div className='radial-bar'>
-            <svg viewBox='0 0 200 200'>
-              <circle className='progress-bar' cx='100' cy='100' r='80'></circle>
-              <circle className='path path-1' cx='100' cy='100' r='80'></circle>
-            </svg>
-            <div className='percentage'>70%</div>
-            <div className='text'>Java</div>
-          </div>
 
-          <div className='radial-bar'>
-            <svg viewBox='0 0 200 200'>
-              <circle className='progress-bar' cx='100' cy='100' r='80'></circle>
-              <circle className='path path-1' cx='100' cy='100' r='80'></circle>
-            </svg>
-            <div className='percentage'>70%</div>
-            <div className='text'>Python</div>
-          </div>
+      <div class="text"> 
+  <span class="ani">b</span> 
+  <span class="ani">a</span>
+  <span class="ani">c</span>
+  <span class="ani">k</span> 
+  <span class="ani">e</span> 
+  <span class="ani">n</span> 
+  <span class="ani">d</span>
+</div>
 
-          <div className='radial-bar'>
-            <svg viewBox='0 0 200 200'>
-              <circle className='progress-bar' cx='100' cy='100' r='80'></circle>
-              <circle className='path path-1' cx='100' cy='100' r='80'></circle>
-            </svg>
-            <div className='percentage'>70%</div>
-            <div className='text'>NodeJs</div>
-          </div>
+<div class="loader">
+  <div class="intern"></div>
+  <div class="external-shadow">
+    <div class="central"></div>
+  </div>
+</div>
 
-          <div className='radial-bar'>
-            <svg viewBox='0 0 200 200'>
-              <circle className='progress-bar' cx='100' cy='100' r='80'></circle>
-              <circle className='path path-1' cx='100' cy='100' r='80'></circle>
-            </svg>
-            <div className='percentage'>70%</div>
-            <div className='text'>Java</div>
-          </div>
-        </div>
-      </div>
+<div class="loader-2">
+  <div class="intern-2"></div>
+  <div class="external-shadow-2">
+    <div class="central-2"></div>
+  </div>
+</div>
+
+<div class="loader-3">
+  <div class="intern-3"></div>
+  <div class="external-shadow-3">
+    <div class="central-3"></div>
+  </div>
+</div>
+
     </section>
   );
 }
