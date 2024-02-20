@@ -5,7 +5,6 @@
   background-color: #58ABC1;
 }
 
-/* src/components/style.css */
 h3 {
   color: #F0EDCF;
   text-align: right;
@@ -13,38 +12,39 @@ h3 {
   left: 700px;
   position: absolute;
   top: 130px;
-  font-family: Arial, sans-serif; 
-  text-shadow: 2px 2px 4px #F0EDCF; 
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 2px 4px #F0EDCF;
 }
+
 h2 {
   color: #F0EDCF;
   text-align: right;
-  font-size: 40px;
+  font-size: 30px;
   left: 500px;
   position: absolute;
   top: 500px;
-  font-family: Arial, sans-serif; 
-  text-shadow: 2px 2px 4px #F0EDCF; 
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 2px 4px #F0EDCF;
 }
 
-
 .home h4 {
-  text-align: right; 
+  text-align: right;
   font-size: 20px;
   left: 560px;
   position: absolute;
   top: 550px;
-  font-family: Arial, sans-serif; 
-  text-shadow: 2px 2px 4px #F0EDCF; 
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 2px 4px #F0EDCF;
 }
+
 .home p {
-  text-align: right; 
+  text-align: right;
   font-size: 20px;
   left: 590px;
   position: absolute;
   top: 455px;
-  font-family: Arial, sans-serif; 
-  text-shadow: 2px 2px 4px #F0EDCF; 
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 2px 4px #F0EDCF;
 }
 
 .image {
@@ -54,8 +54,8 @@ h2 {
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  animation: floatAnimation 2s infinite alternate; 
-  transition: transform 0.3s ease-in-out; 
+  animation: floatAnimation 2s infinite alternate;
+  transition: transform 0.3s ease-in-out;
 }
 
 .pic {
@@ -66,12 +66,13 @@ h2 {
 
 @keyframes floatAnimation {
   0% {
-    transform: translateY(0);
+      transform: translateY(0);
   }
   100% {
-    transform: translateY(-30px); 
+      transform: translateY(-30px);
   }
 }
+
 button {
   text-decoration: none;
   position: relative;
@@ -99,11 +100,11 @@ button:hover {
 
 @keyframes ani {
   0% {
-    background-position: 0%;
+      background-position: 0%;
   }
 
   100% {
-    background-position: 400%;
+      background-position: 400%;
   }
 }
 
@@ -128,40 +129,42 @@ button:hover::before {
 button:active {
   background: linear-gradient(32deg, cyan, #f0edcf, #ffeb3b, #03a9f4);
 }
+
 @media (max-width: 768px) {
   h3 {
-    font-size: 30px; /* Decrease font size for smaller screens */
-    left: 100%; /* Center horizontally */
-    transform: translateX(-50%);
-    top: 200px; /* Adjust top position */
+      font-size: 0px;
+      left: 100%;
+      transform: translateX(-50%);
+      top: 200px;
   }
 
   h2 {
-    font-size: 30px; /* Decrease font size for smaller screens */
-    left: 60%; /* Center horizontally */
-    transform: translateX(-50%);
-    top: 400px; /* Adjust top position */
+      font-size: 30px;
+      left: 70%;
+      transform: translateX(-50%);
+      top: 400px;
   }
 
-  .home h4, .home p {
-    font-size: 16px; /* Decrease font size for smaller screens */
-    left: 60%; /* Center horizontally */
-    transform: translateX(-50%);
-    margin-top: -80px;
+  .home h4,
+  .home p {
+      font-size: 16px;
+      left: 65%;
+      transform: translateX(-50%);
+      margin-top: -80px;
   }
 
   .image {
-    bottom: 300px; /* Adjust bottom position */
-    left: 40%; /* Center horizontally */
-    transform: translateX(-50%);
-    width: 200px; /* Decrease width for smaller screens */
-    height: 200px; /* Decrease height for smaller screens */
+      bottom: 300px;
+      left: 45%;
+      transform: translateX(-50%);
+      width: 200px;
+      height: 200px;
   }
 
   button {
-    font-size: 12px; /* Decrease font size for smaller screens */
-    top: 200px; /* Adjust top position */
-    left: 70%; /* Center horizontally */
-    transform: translateX(-50%);
+      font-size: 12px;
+      top: 170px;
+      left: 120%;
+      transform: translateX(-50%);
   }
 }
