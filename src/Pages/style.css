@@ -16,6 +16,16 @@ h3 {
   font-family: Arial, sans-serif; 
   text-shadow: 2px 2px 4px #F0EDCF; 
 }
+.home .h3 {
+  color: #d7f0cf;
+  text-align: right;
+  font-size: 40px;
+  left: 700px;
+  position: absolute;
+  top: 150px;
+  font-family: Arial, sans-serif; 
+  text-shadow: 2px 2px 4px #F0EDCF; 
+}
 
 
 .home h4 {
@@ -29,10 +39,10 @@ h3 {
 }
 .image {
   position: fixed;
-  bottom: 60px;
-  left: 800px;
-  width: 400px;
-  height: 500px;
+  bottom: 400px;
+  left: 550px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   animation: floatAnimation 2s infinite alternate; 
   transition: transform 0.3s ease-in-out; 
