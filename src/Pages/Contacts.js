@@ -9,10 +9,6 @@ function Contacts() {
       <h3>Contact Me</h3>
       <div className='contact'>
         <div className='rectangle'>
-          <div className='label'>
-            <div className='icon'><FaPhone /></div>
-            <div className='text'>+2731922743</div>
-          </div>
           <div className='label2'>
             <div className='icon2'><FaMapMarkerAlt /></div>
             <div className='text2'>Cape Town</div>
