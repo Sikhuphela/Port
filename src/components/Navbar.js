@@ -19,8 +19,8 @@ function Navbar() {
                         <FaIcons.FaBars />
                     </Link>
                     <div className="social-icons">
-                        <a href="" className="social-icon"><FaIcons.FaGithub /></a>
-                        <a href="" className="social-icon"><FaIcons.FaDiscord /></a>
+                        <a href="https://github.com/Sikhuphela?tab=repositories" className="social-icon"><FaIcons.FaGithub /></a>
+                        <a href="https://linkedin.com/in/aphiwe-sikhuphela-a80b74284" className="social-icon"><FaIcons.FaDiscord /></a>
                         <a href="" className="social-icon"><FaIcons.FaLinkedin /></a>
                     </div>
                 </div>

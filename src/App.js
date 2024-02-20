@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router,Link, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home'; 
 import About from './Pages/About'; 
 import Skills from './Pages/Skills'; 
@@ -25,3 +25,4 @@ function App() {
 }
 
 export default App;
+ 
