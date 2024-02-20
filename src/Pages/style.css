@@ -16,13 +16,13 @@ h3 {
   font-family: Arial, sans-serif; 
   text-shadow: 2px 2px 4px #F0EDCF; 
 }
-.home .h3 {
-  color: #d7f0cf;
+h2 {
+  color: #F0EDCF;
   text-align: right;
   font-size: 40px;
-  left: 700px;
+  left: 500px;
   position: absolute;
-  top: 150px;
+  top: 500px;
   font-family: Arial, sans-serif; 
   text-shadow: 2px 2px 4px #F0EDCF; 
 }
@@ -31,9 +31,9 @@ h3 {
 .home h4 {
   text-align: right; 
   font-size: 20px;
-  left: 500px;
+  left: 560px;
   position: absolute;
-  top: 200px;
+  top: 550px;
   font-family: Arial, sans-serif; 
   text-shadow: 2px 2px 4px #F0EDCF; 
 }
