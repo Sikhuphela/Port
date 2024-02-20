@@ -41,7 +41,10 @@ function Navbar() {
                         ))}
                     </ul>
                 </nav>
+                <div className='color'></div>
             </IconContext.Provider>
+            
+           
         </>
     );
 }

@@ -22,12 +22,11 @@ function About() {
         <div className="text-wrapper-3">
           <FontAwesomeIcon icon={faCode} style={{ color: "#f0edcf" }} />
           <span>Coding</span>
+          <button className="btn">Download CV</button>
         </div>
         <div className="text-wrapper-5"><FontAwesomeIcon icon={faGlobe} style={{ color: "#f0edcf" }} /> Culture Studies</div>
         <div className="group-2">
-       <button className="btn">Download CV</button>
           </div>
-
         <div className="text-wrapper-7">Interests</div>
         <div className="group-wrapper">
           <div className="div-wrapper">
