@@ -128,3 +128,40 @@ button:hover::before {
 button:active {
   background: linear-gradient(32deg, cyan, #f0edcf, #ffeb3b, #03a9f4);
 }
+@media (max-width: 768px) {
+  h3 {
+    font-size: 30px; /* Decrease font size for smaller screens */
+    left: 100%; /* Center horizontally */
+    transform: translateX(-50%);
+    top: 200px; /* Adjust top position */
+  }
+
+  h2 {
+    font-size: 30px; /* Decrease font size for smaller screens */
+    left: 60%; /* Center horizontally */
+    transform: translateX(-50%);
+    top: 400px; /* Adjust top position */
+  }
+
+  .home h4, .home p {
+    font-size: 16px; /* Decrease font size for smaller screens */
+    left: 60%; /* Center horizontally */
+    transform: translateX(-50%);
+    margin-top: -80px;
+  }
+
+  .image {
+    bottom: 300px; /* Adjust bottom position */
+    left: 40%; /* Center horizontally */
+    transform: translateX(-50%);
+    width: 200px; /* Decrease width for smaller screens */
+    height: 200px; /* Decrease height for smaller screens */
+  }
+
+  button {
+    font-size: 12px; /* Decrease font size for smaller screens */
+    top: 200px; /* Adjust top position */
+    left: 70%; /* Center horizontally */
+    transform: translateX(-50%);
+  }
+}
