@@ -70,7 +70,7 @@ function Skills() {
       </div>
 
 
-   
+      <h4>Java</h4>  
 <div class="loader">
   <div class="intern"></div>
   <div class="external-shadow">
