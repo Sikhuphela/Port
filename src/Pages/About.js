@@ -10,7 +10,7 @@ function About() {
     <h3>About Me</h3>
     <div className="about">
       <div className="group">
-      <img className="IMG" alt="Img" src={picImage1} />
+        <img className="IMG" alt="Img" src={picImage1}  class="card-1"/>
        
         <div className="div">Hobbies</div>
         <div className="overlap-group">
@@ -23,7 +23,6 @@ function About() {
           <FontAwesomeIcon icon={faCode} style={{ color: "#f0edcf" }} />
           <span>Coding</span>
         </div>
-        <div className="text-wrapper-4">Aphiwe sikhuphela</div>
         <div className="text-wrapper-5"><FontAwesomeIcon icon={faGlobe} style={{ color: "#f0edcf" }} /> Culture Studies</div>
         <div className="group-2">
        <button className="btn">Download CV</button>
