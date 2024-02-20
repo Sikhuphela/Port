@@ -151,13 +151,13 @@
 .contact .group-wrapper{
 height: 62px;
 }
-.contact .group-4{
+.contact .input-field-4{
   background-color:#f0edcf ;
   border-radius: 15px;
   height: 50px;
-  left:780px;
+  left:660px;
   position: fixed;
-  top: 750px;
+  top: 500px;
   width: 600px;
 }
 .contact .div-wrapper{
