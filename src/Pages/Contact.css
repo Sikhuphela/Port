@@ -121,16 +121,6 @@
   white-space: nowrap;
   width: 110px;
 }
-
-.contact  .input-field-2{
-  background-color:#f0edcf ;
-  border-radius: 15px;
-  height: 175px;
-  left: 30px;
-  position: absolute;
-  top: 40px;
-  width: 470px;
-}
 .contact .input-field{
   background-color:#f0edcf ;
   border-radius: 15px;
@@ -144,18 +134,19 @@
   background-color:#f0edcf;
   border-radius: 15px;
   height: 35px;
-  left: 250px;
+  left: 300px;
   position: absolute;
-  width: 205px;
+  margin-top:-145px;
+  width: 220px;
 }
 .contact .input-field-3{
   background-color:#f0edcf;
   border-radius: 15px;
   height: 35px;
-  left: -250px;
+  left: 10px;
   position: absolute;
-  top:70px;
-  width: 459px;
+  top:-70px;
+  width: 520px;
 }
 .contact .group-wrapper{
 height: 62px;
@@ -167,7 +158,7 @@ height: 62px;
   left:780px;
   position: fixed;
   top: 750px;
-  width: 135px;
+  width: 600px;
 }
 .contact .div-wrapper{
   height: 30px;
