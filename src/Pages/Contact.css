@@ -128,7 +128,7 @@
   left: 10px;
   position: absolute;
   top: -140px;
-  width: 205px;
+  width: 230px;
 }
 .contact .input-field-2{
   background-color:#f0edcf;
@@ -137,7 +137,7 @@
   left: 300px;
   position: absolute;
   margin-top:-145px;
-  width: 220px;
+  width: 230px;
 }
 .contact .input-field-3{
   background-color:#f0edcf;
@@ -177,7 +177,7 @@ height: 62px;
   line-height: normal;
   position: fixed;
   left:850px;
-  top: 750px;
+  top: 700px;
   width: 135px;
   height: 40px;
   display: flex;
