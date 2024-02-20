@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook, faUtensils, faCode, faGlobe, faDownload } from '@fortawesome/free-solid-svg-icons';
-import picImage1 from '../../src/components/Images/pic2.jpg';
+import picImage1 from '../../src/components/Images/pic.jpg';
 
 function About() {
   return (

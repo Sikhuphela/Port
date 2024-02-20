@@ -12,7 +12,7 @@ h3 {
   font-size: 40px;
   left: 700px;
   position: absolute;
-  top: 150px;
+  top: 130px;
   font-family: Arial, sans-serif; 
   text-shadow: 2px 2px 4px #F0EDCF; 
 }
@@ -37,6 +37,16 @@ h2 {
   font-family: Arial, sans-serif; 
   text-shadow: 2px 2px 4px #F0EDCF; 
 }
+.home p {
+  text-align: right; 
+  font-size: 20px;
+  left: 590px;
+  position: absolute;
+  top: 455px;
+  font-family: Arial, sans-serif; 
+  text-shadow: 2px 2px 4px #F0EDCF; 
+}
+
 .image {
   position: fixed;
   bottom: 400px;
