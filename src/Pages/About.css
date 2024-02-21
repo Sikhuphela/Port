@@ -451,7 +451,8 @@
     }
     .about .text-wrapper-3{
       font-size: 12px;
-      margin-left: 200px;
+      margin-left: -580px;
+      margin-bottom: -620px;
    
     }
     .about .cooking{
@@ -466,10 +467,9 @@
       text-align: center;
       margin: 0 auto;
       margin-left: -470px;
-      margin-top: -600px;
+      margin-top: -290px;
       
     }
-    .about .text-wrapper-3,
     .about .text-wrapper-4,
     .about .text-wrapper-5,
     .about .group-2 {
