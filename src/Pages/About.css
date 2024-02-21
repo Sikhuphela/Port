@@ -2,10 +2,7 @@
 .about {
   display: flex;
   flex-direction: column;
-  background-color: #58abc1;
-  min-height: 100vh;
-  padding: 20px;
-  width: 150vh;
+  background-color: #58ABC1;
 }
 
 .about .group {
@@ -53,10 +50,10 @@
 .circle {
   width: 100px;
   height: 100px;
-  background: white;
+  background: #f0edcf;
   border-radius: 50%;
   position: absolute;
-  box-shadow: 0px 0px 5px 5px #0b2447;
+  box-shadow: 0px 0px 5px 5px #027492;
   animation: move-up6 2s ease-in infinite alternate-reverse;
 }
 
@@ -292,6 +289,24 @@
     height: 265px;
     border-radius: 265px;
   }
+  .card {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    max-height: 320px;
+    background-color: #f2f8f9;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    margin-top: -500px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #c3e6ec, #f0edcf);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
   .card-title {
     color: #262626;
     font-size: 1.5em;
@@ -333,23 +348,6 @@
   }
  
     
-  .card {
-    display: block;
-    position: relative;
-    max-width: 400px;
-    max-height: 320px;
-    background-color: #f2f8f9;
-    font-size: 15px;
-    border-radius: 10px;
-    padding: 2em 1.2em;
-    margin-top: -400px;
-    text-decoration: none;
-    z-index: 0;
-    overflow: hidden;
-    background: linear-gradient(to bottom, #c3e6ec, #f0edcf);
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
   
   
   
