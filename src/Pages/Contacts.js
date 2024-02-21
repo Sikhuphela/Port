@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Contact.css';
 import { Link } from 'react-router-dom';
 import { FaPhone, FaHome, FaMapMarkerAlt } from 'react-icons/fa';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 function Contacts() {
   const [formData, setFormData] = useState({
@@ -24,7 +25,6 @@ function Contacts() {
       return;
     }
 
-    // Validate email format
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(formData.email)) {
       alert('Please enter a valid email address');
@@ -39,6 +39,11 @@ function Contacts() {
       name: '',
       subject: ''
     });
+  };
+
+  const handleRecaptchaChange = (value) => {
+    console.log("reCAPTCHA value:", value);
+    // You can perform further actions based on the reCAPTCHA value
   };
 
   return (
@@ -100,6 +105,10 @@ function Contacts() {
                   onChange={handleChange}
                 />
                 <button type="submit" className='submit-btn'>Submit</button>
+                <ReCAPTCHA
+                  sitekey="your-site-key"
+                  onChange={handleRecaptchaChange}
+                />
               </div>
             </div>
           </form>
