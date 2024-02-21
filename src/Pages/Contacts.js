@@ -32,34 +32,31 @@ function Contacts() {
       return;
     }
 
-    // Send email using EmailJS
-    const templateParams = {
-      from_name: formData.name,
-      from_email: formData.email,
-      subject: formData.subject,
-      message_html: formData.message
-    };
-
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams, 'YOUR_USER_ID')
-      .then((response) => {
-        console.log('Email sent successfully:', response);
-        alert('Email sent successfully!');
-        // Reset form fields after successful submission
-        setFormData({
-          message: '',
-          email: '',
-          name: '',
-          subject: ''
-        });
-      })
-      .catch((error) => {
-        console.error('Email sending failed:', error);
-        alert('Failed to send email. Please try again later.');
+    // Send email using emailjs
+    emailjs.sendForm(
+      'service_0ke9fee', // Your email service ID
+      'template_6vnpmt7', // Your email template ID
+      e.target, // The form element
+      'lsA9ycfvh0aAsGdoC' // Your user ID from EmailJS
+    )
+    .then((result) => {
+      console.log(result.text);
+      alert('Message sent successfully!');
+      setFormData({
+        message: '',
+        email: '',
+        name: '',
+        subject: ''
       });
+    }, (error) => {
+      console.log(error.text);
+      alert('Failed to send message. Please try again later.');
+    });
   };
 
   const handleRecaptchaChange = (value) => {
     console.log("reCAPTCHA value:", value);
+    // You can perform further actions based on the reCAPTCHA value
   };
 
   return (
@@ -74,8 +71,8 @@ function Contacts() {
           <iframe
             title="Google Maps"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165800.04030341068!2d18.4240553!3d-33.9248685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc500f8826eed7%3A0x687fe1fc2828aa87!2sCape%20Town!5e0!3m2!1sen!2sza!4v1644720678477!5m2!1sen!2sza"
-            width="310"
-            height="330"
+            width="290"
+            height="300"
             style={{ border: 0, marginTop: '120px', marginLeft: '10px' }}
             allowFullScreen=""
             loading="lazy"
@@ -148,3 +145,4 @@ function Contacts() {
 }
 
 export default Contacts;
+
