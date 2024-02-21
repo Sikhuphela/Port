@@ -31,20 +31,22 @@ function Contacts() {
       alert('Please enter a valid email address');
       return;
     }
-    console.log('Form submitted:', formData);
 
-    // Reset form fields
-    setFormData({
-      message: '',
-      email: '',
-      name: '',
-      subject: ''
-    });
-  };
-
-  const handleRecaptchaChange = (value) => {
-    console.log("reCAPTCHA value:", value);
-    // You can perform further actions based on the reCAPTCHA value
+    // Send email using EmailJS
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+      .then((result) => {
+        console.log(result.text);
+        alert('Message sent successfully!');
+        setFormData({
+          message: '',
+          email: '',
+          name: '',
+          subject: ''
+        });
+      }, (error) => {
+        console.log(error.text);
+        alert('An error occurred while sending the message. Please try again later.');
+      });
   };
 
   return (
