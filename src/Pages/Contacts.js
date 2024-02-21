@@ -5,6 +5,7 @@ import { FaPhone, FaHome, FaMapMarkerAlt } from 'react-icons/fa';
 import ReCAPTCHA from 'react-google-recaptcha';
 import emailjs from 'emailjs-com';
 
+
 function Contacts() {
   const [formData, setFormData] = useState({
     message: '',
@@ -20,24 +21,30 @@ function Contacts() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+  
+    // Check if the reCAPTCHA is checked
+    if (!captchaChecked) {
+      alert('Please check the reCAPTCHA before submitting the form.');
+      return;
+    }
+  
     if (!formData.message.trim() || !formData.email.trim() || !formData.name.trim()) {
       alert('Please fill in all required fields');
       return;
     }
-
+  
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(formData.email)) {
       alert('Please enter a valid email address');
       return;
     }
-
-    // Send email using emailjs
+  
+    
     emailjs.sendForm(
-      'service_0ke9fee', // Your email service ID
-      'template_6vnpmt7', // Your email template ID
-      e.target, // The form element
-      'lsA9ycfvh0aAsGdoC' // Your user ID from EmailJS
+      'service_0ke9fee', 
+      'template_6vnpmt7', 
+      e.target, 
+      'lsA9ycfvh0aAsGdoC'
     )
     .then((result) => {
       console.log(result.text);
@@ -54,10 +61,12 @@ function Contacts() {
     });
   };
 
-  const handleRecaptchaChange = (value) => {
-    console.log("reCAPTCHA value:", value);
-    // You can perform further actions based on the reCAPTCHA value
-  };
+  const [captchaChecked, setCaptchaChecked] = useState(false);
+
+const handleRecaptchaChange = (value) => {
+  console.log("reCAPTCHA value:", value);
+  setCaptchaChecked(true);
+};
 
   return (
     <div className='contact-container'>
