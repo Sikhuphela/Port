@@ -431,10 +431,14 @@
     .about .div{
       position: static; 
       width: 100%;
+      font-size: 16px;
       text-align: center;
       margin: 0 auto;
-      margin-top: 200px; 
-      margin-left: 0px; 
+      margin-top: 210px; 
+      margin-left: -90px; 
+    }
+    .about .text-wrapper-7{
+      
     }
     .card{
       position: static; 
@@ -443,7 +447,7 @@
       text-align: center;
       margin: 0 auto;
       margin-left: -470px;
-      margin-top: -625px;
+      margin-top: -600px;
       
     }
     .about .cooking,
