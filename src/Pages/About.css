@@ -5,6 +5,7 @@
     background-color: #58abc1;
     min-height: 100vh;
     padding: 20px;
+    width: 150vh;
     
   }
   
@@ -383,7 +384,7 @@
   }
   @media screen and (max-width: 768px) {
     .about .group {
-      height: auto; /* Adjust height for smaller screens */
+      height: 700px; 
       left: 0; /* Adjust position for smaller screens */
     }
   
