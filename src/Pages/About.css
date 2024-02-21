@@ -73,10 +73,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-family: 400;
-    left: 0;
+    left: -30px;
     line-height: normal;
     position: absolute;
-    bottom:75px;
+    bottom:55px;
     width: 107px;
     text-align: center;
     margin: 20px auto;
@@ -292,24 +292,6 @@
       rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
       rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
-    
-  .card {
-    display: block;
-    position: relative;
-    max-width: 400px;
-    max-height: 320px;
-    background-color: #f2f8f9;
-    font-size: 15px;
-    border-radius: 10px;
-    padding: 2em 1.2em;
-    margin-top: -400px;
-    text-decoration: none;
-    z-index: 0;
-    overflow: hidden;
-    background: linear-gradient(to bottom, #c3e6ec, #f0edcf);
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
   .card:before {
     content: '';
     position: absolute;
@@ -338,6 +320,25 @@
     transition: all 0.5s ease-out;
     color: #ffffff;
   }
+    
+  .card {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    max-height: 320px;
+    background-color: #f2f8f9;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    margin-top: -400px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #c3e6ec, #f0edcf);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
   
   
   .about .energetic-software {
@@ -417,13 +418,13 @@
     .card-1 {
       height: 200px;
       width: 150px;
-      margin-left: -30px;
+      margin-left: -50px;
       margin-top: 10px;
     }
     .about .btn{
-     margin-top: -160px;
-     margin-left: -20px;
-     width: 150%;
+     margin-top: -30px;
+     margin-left: -40px;
+     width: 120%;
      font-size: 13px;
     }
     .about .div{
@@ -436,30 +437,30 @@
       margin-left: -90px; 
     }
     .about .text-wrapper-7{
-      margin-left: -580px;
+      margin-left: -595px;
       margin-top: 175px; 
       font-size: 16px;
     }
     .about .text-wrapper-2{
-      margin-left: -530px;
+      margin-left: -560px;
       font-size: 12px;
       margin-bottom: -150px;
 
     }
     .about .text-wrapper-3{
       font-size: 12px;
-      margin-left: -590px;
-      margin-bottom: -620px;
+      margin-left: -625px;
+      margin-bottom: -480px;
    
     }
     .about .text-wrapper-5{
       font-size: 12px;
-      margin-left: -625px;
+      margin-left: -660px;
       margin-top: 150px;
 
     }
     .about .cooking{
-      margin-left: -540px;
+      margin-left: -570px;
       font-size: 12px;
       margin-bottom: -150px;
     }
@@ -470,8 +471,16 @@
       text-align: center;
       margin: 0 auto;
       margin-left: -490px;
-      margin-top: -290px;
+      margin-top: -235px;
       
     }
+    .go-corner{
+      margin-right: 693px;
+      margin-top: -235px;
+    }
+    .card:before {
+      right: -30px; /* Adjust position for smaller screens */
+      top: -30px; /* Adjust position for smaller screens */
+  }
    
   }
