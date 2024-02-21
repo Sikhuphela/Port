@@ -33,20 +33,33 @@ function Contacts() {
     }
 
     // Send email using EmailJS
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-      .then((result) => {
-        console.log(result.text);
-        alert('Message sent successfully!');
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      subject: formData.subject,
+      message_html: formData.message
+    };
+
+    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams, 'YOUR_USER_ID')
+      .then((response) => {
+        console.log('Email sent successfully:', response);
+        alert('Email sent successfully!');
+        // Reset form fields after successful submission
         setFormData({
           message: '',
           email: '',
           name: '',
           subject: ''
         });
-      }, (error) => {
-        console.log(error.text);
-        alert('An error occurred while sending the message. Please try again later.');
+      })
+      .catch((error) => {
+        console.error('Email sending failed:', error);
+        alert('Failed to send email. Please try again later.');
       });
+  };
+
+  const handleRecaptchaChange = (value) => {
+    console.log("reCAPTCHA value:", value);
   };
 
   return (
@@ -69,55 +82,54 @@ function Contacts() {
           ></iframe>
         </div>
         <div className='group'>
-  <form onSubmit={handleSubmit}>
-    <div className='rectangle-5'>
-      <div className='overlap'>
-        <input
-          type='text'
-          className='input-field-4'
-          placeholder='Message'
-          name='message'
-          value={formData.message}
-          onChange={handleChange}
-          required
-        />
-        <input
-          type='email'
-          className='input-field-2'
-          placeholder='Email'
-          name='email'
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-        <input
-          type='text'
-          className='input-field'
-          placeholder='Name'
-          name='name'
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-        <input
-          type='text'
-          className='input-field-3'
-          placeholder='Subject'
-          name='subject'
-          value={formData.subject}
-          onChange={handleChange}
-        />
-        <button type="submit" className='submit-btn'>Submit</button>
-      </div>
-    </div>
-    <ReCAPTCHA
-  sitekey="6Ldct3opAAAAAFLNGbAD_6b4K3W-pFa5Wioi4un_"
-  onChange={handleRecaptchaChange}
-  className='recaptcha-container'
-/>
-  </form>
-</div>
-
+          <form onSubmit={handleSubmit}>
+            <div className='rectangle-5'>
+              <div className='overlap'>
+                <input
+                  type='text'
+                  className='input-field-4'
+                  placeholder='Message'
+                  name='message'
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                />
+                <input
+                  type='email'
+                  className='input-field-2'
+                  placeholder='Email'
+                  name='email'
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                />
+                <input
+                  type='text'
+                  className='input-field'
+                  placeholder='Name'
+                  name='name'
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                />
+                <input
+                  type='text'
+                  className='input-field-3'
+                  placeholder='Subject'
+                  name='subject'
+                  value={formData.subject}
+                  onChange={handleChange}
+                />
+                <button type="submit" className='submit-btn'>Submit</button>
+              </div>
+            </div>
+            <ReCAPTCHA
+              sitekey="6Ldct3opAAAAAFLNGbAD_6b4K3W-pFa5Wioi4un_"
+              onChange={handleRecaptchaChange}
+              className='recaptcha-container'
+            />
+          </form>
+        </div>
       </div>
       <footer className='footer'>
         <div className='footer-content'>
