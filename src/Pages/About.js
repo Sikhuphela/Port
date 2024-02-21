@@ -10,8 +10,13 @@ function About() {
     <h3>About Me</h3>
     <div className="about">
       <div className="group">
-        <img className="IMG" alt="Img" src={picImage1}  class="card-1"/>
-       
+        <div class="card-2">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="card-inner">
+        <img className="IMG" alt="Img" src={picImage1} />
+        </div>
+    </div>
         <div className="div">Hobbies</div>
         <div className="overlap-group">
           <div className="text-wrapper-2"><FontAwesomeIcon icon={faBook} style={{ color: "#f0edcf" }} /> Reading</div>
