@@ -413,6 +413,9 @@
       margin-top: -500px;
       left: -200px; /* Adjust position for smaller screens */
     }
+    .about h3{
+      
+    }
     .card-1 {
       height: 200px;
       width: 150px;
@@ -438,14 +441,14 @@
       margin-left: -90px; 
     }
     .about .text-wrapper-7{
-      margin-left: -570px;
+      margin-left: -580px;
       margin-top: 175px; 
       font-size: 16px;
     }
     .about .text-wrapper-2{
-      margin-left: -570px;
+      margin-left: -530px;
       font-size: 12px;
-      margin-top: 8z;
+      margin-bottom: -150px;
 
     }
     .card{
