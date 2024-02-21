@@ -451,9 +451,15 @@
     }
     .about .text-wrapper-3{
       font-size: 12px;
-      margin-left: -580px;
+      margin-left: -590px;
       margin-bottom: -620px;
    
+    }
+    .about .text-wrapper-5{
+      font-size: 12px;
+      margin-left: -625px;
+      margin-top: 150px;
+
     }
     .about .cooking{
       margin-left: -540px;
@@ -466,19 +472,12 @@
       width: 50%;
       text-align: center;
       margin: 0 auto;
-      margin-left: -470px;
+      margin-left: -490px;
       margin-top: -290px;
       
     }
-    .about .text-wrapper-4,
-    .about .text-wrapper-5,
-    .about .group-2 {
-      position: static; 
-      width: 100%;
-      text-align: center;
-      margin: 0 auto;
-      margin-top: 20px; 
-      margin-left: 0px; 
+    .about .text-wrapper-4 {
+    
     }
    
   }

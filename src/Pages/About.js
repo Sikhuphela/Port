@@ -22,7 +22,9 @@ function About() {
         <div className="text-wrapper-3">
           <FontAwesomeIcon icon={faCode} style={{ color: "#f0edcf" }} />
           <span>Coding</span>
+          <div>
           <button className="btn">Download CV</button>
+          </div>
         </div>
         <div className="text-wrapper-5"><FontAwesomeIcon icon={faGlobe} style={{ color: "#f0edcf" }} /> Culture Studies</div>
         <div className="group-2">
@@ -38,7 +40,7 @@ function About() {
                 and Human Interactions Conference in 2018. Completed National Diploma for Information Technology at
                 Walter Sisulu University.</p>
                 <div class="go-corner">
-        <div class="go-arrow">→</div>
+        <div class="go-arrow">+</div>
       </div>
               </div>
             </div>
