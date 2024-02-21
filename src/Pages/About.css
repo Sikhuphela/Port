@@ -413,9 +413,7 @@
       margin-top: -500px;
       left: -200px; /* Adjust position for smaller screens */
     }
-    .about h3{
-      
-    }
+    
     .card-1 {
       height: 200px;
       width: 150px;
@@ -451,6 +449,16 @@
       margin-bottom: -150px;
 
     }
+    .about .text-wrapper-3{
+      font-size: 12px;
+      margin-left: 200px;
+   
+    }
+    .about .cooking{
+      margin-left: -540px;
+      font-size: 12px;
+      margin-bottom: -150px;
+    }
     .card{
       position: static; 
       font-size: 11px;
@@ -461,7 +469,6 @@
       margin-top: -600px;
       
     }
-    .about .cooking,
     .about .text-wrapper-3,
     .about .text-wrapper-4,
     .about .text-wrapper-5,
