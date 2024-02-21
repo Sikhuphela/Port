@@ -1,18 +1,16 @@
-.skills{
+.containers {
   display: flex;
   flex-direction: column;
+  height: 100%;
   background-color: #58ABC1;
 }
-.section {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
+
   .container1 {
     width: 550px;
     height: 500px;
     padding: 75px;
     margin-left: 120px;
+    
     
   }
   

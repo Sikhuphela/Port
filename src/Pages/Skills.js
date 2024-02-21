@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import './Skills.css';
 
+
 function Skills() {
   return (
+    <div className='containers'>
     <section>
       <h3>My Skills</h3>
       <div class="text"> 
@@ -93,6 +95,7 @@ function Skills() {
 </div>
 
     </section>
+    </div>
   );
 }
 
