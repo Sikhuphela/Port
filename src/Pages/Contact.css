@@ -10,7 +10,7 @@
   box-shadow: inset 0px 4px 4px #00000040, 0px 4px 4px #00000040;
   height: 480px;
   position:fixed;
-  left: 300px;
+  left: 200px;
   top:200px;
   width: 330px;
 }
@@ -57,7 +57,7 @@
   box-shadow: inset 0px 4px 4px #00000040, 0px 4px 4px #00000040;
   height: 480px;
   position:fixed;
-  left: 650px;
+  left: 570px;
   top:200px;
   width: 550px;
 }
@@ -156,7 +156,7 @@ height: 62px;
   background-color:#f0edcf ;
   border-radius: 15px;
   height: 150px;
-  left:660px;
+  left:580px;
   position: fixed;
   top: 400px;
   width: 520px;
@@ -177,7 +177,7 @@ height: 62px;
   font-weight: 400;
   line-height: normal;
   position: fixed;
-  left:850px;
+  left:750px;
   top: 580px;
   width: 135px;
   height: 40px;
@@ -242,7 +242,7 @@ height: 62px;
 .recaptcha-container {
   position: relative;
   top: 610px;
-  left: 650px;
+  left: 700px;
   width: 100px;
 }
 
