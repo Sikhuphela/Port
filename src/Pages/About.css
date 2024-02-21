@@ -25,8 +25,8 @@
     object-fit: cover;
     position: absolute;
     top: 12px;
-    width: 426px;
-    border-radius: 50px;
+    width: 100%;
+    border-radius: 20px;
   }
   .about .overlap {
     height: 30px;
