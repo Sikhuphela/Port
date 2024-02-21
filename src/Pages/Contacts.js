@@ -3,6 +3,7 @@ import './Contact.css';
 import { Link } from 'react-router-dom';
 import { FaPhone, FaHome, FaMapMarkerAlt } from 'react-icons/fa';
 import ReCAPTCHA from 'react-google-recaptcha';
+import emailjs from 'emailjs-com';
 
 function Contacts() {
   const [formData, setFormData] = useState({
