@@ -1,9 +1,9 @@
 /* About.css */
-
   .about {
     display: flex;
     flex-direction: column;
     background-color: #58ABC1;
+    height: 91vh;
     
   }
   
