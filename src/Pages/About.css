@@ -1,34 +1,65 @@
 /* About.css */
-  .about {
-    display: flex;
-    flex-direction: column;
-    background-color: #58abc1;
-    min-height: 100vh;
-    padding: 20px;
-    width: 150vh;
-    
-  }
-  
+.about {
+  display: flex;
+  flex-direction: column;
+  background-color: #58abc1;
+  min-height: 100vh;
+  padding: 20px;
+  width: 150vh;
+}
+
+.about .group {
+  height: 530px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  left: -200px;
+  padding: 20px;
+}
+
+.about .IMG {
+  height: 93px; /* Adjusted height */
+  width: calc(100% - 200px); /* Adjusted width */
+  left: -4px;
+  object-fit: cover;
+  position: absolute;
+  top: 12px;
+  border-radius: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
   .about .group {
-    height: 530px;
-    position: relative;
-    margin: 0 auto;
-    max-width: 100%;
-    left: -200px;
-    padding: 20px;
-    
-  
+    height: 200px;
+    margin-top: -500px;
+    left: -200px; /* Adjust position for smaller screens */
   }
-  
+
   .about .IMG {
-    height:493px;
-    left: -4px;
-    object-fit: cover;
-    position: absolute;
-    top: 12px;
-    width: 100%;
-    border-radius: 20px;
+    height: 50px; /* Adjust height for smaller screens */
+    width: 20px; /* Adjust width for smaller screens */
+    left: -400px; /* Adjust position for smaller screens */
+    border-radius: 0; /* Remove border radius for smaller screens */
   }
+
+  .about .cooking,
+  .about .div,
+  .about .text-wrapper-2,
+  .about .text-wrapper-3,
+  .about .text-wrapper-4,
+  .about .text-wrapper-5,
+  .about .group-2,
+  .about .btn {
+    position: static; /* Change position to static for smaller screens */
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0; /* Remove margin-top for smaller screens */
+    margin-left: 0; /* Remove margin-left for smaller screens */
+  }
+}
+
   .about .overlap {
     height: 30px;
     left: 481px;
@@ -132,13 +163,7 @@
     width: 162px;
   }
   
-  .about .group-2 {
-    height: 26px;
-    left: 461px;
-    position: absolute;
-    top: 504px;
-    width: 192px;
-}
+  
 
 .about .btn {
     color: #000000;
@@ -384,46 +409,55 @@
   }
   @media screen and (max-width: 768px) {
     .about .group {
-      height: 700px; 
-      left: 0; /* Adjust position for smaller screens */
+      height: 200px;
+      margin-top: -500px;
+      left: -200px; /* Adjust position for smaller screens */
     }
-  
-    .about .IMG {
-      height: auto; /* Adjust height for smaller screens */
+    .card-1 {
+      height: 200px;
+      width: 150px;
+      margin-left: -30px;
+      margin-top: 10px;
+    }
+    .about .btn{
+      position: static; 
       width: 100%;
-      left: 0; /* Adjust position for smaller screens */
-      border-radius: 0; /* Remove border radius for smaller screens */
+      font-size: 12px;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 250px; 
+      margin-left: 0; 
     }
-  
-    .about .cooking {
-      position: static; /* Change position to static for smaller screens */
+    .about .div{
+      position: static; 
       width: 100%;
       text-align: center;
-      margin: 20px auto;
+      margin: 0 auto;
+      margin-top: 200px; 
+      margin-left: 0px; 
     }
-  
-    .about .div {
-      left: 0; /* Adjust position for smaller screens */
-      width: 100%;
+    .card{
+      position: static; 
+      font-size: 11px;
+      width: 50%;
       text-align: center;
+      margin: 0 auto;
+      margin-left: -470px;
+      margin-top: -625px;
+      
     }
-  
+    .about .cooking,
     .about .text-wrapper-2,
     .about .text-wrapper-3,
     .about .text-wrapper-4,
-    .about .text-wrapper-5 {
-      position: static; /* Change position to static for smaller screens */
+    .about .text-wrapper-5,
+    .about .group-2 {
+      position: static; 
       width: 100%;
       text-align: center;
+      margin: 0 auto;
+      margin-top: 20px; 
+      margin-left: 0px; 
     }
-  
-    .about .group-2 {
-      position: static; /* Change position to static for smaller screens */
-      width: 100%;
-    }
-  
-    .about .btn {
-      position: static; /* Change position to static for smaller screens */
-      width: 100%;
-    }
+   
   }
