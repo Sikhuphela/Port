@@ -3,17 +3,20 @@
     display: flex;
     flex-direction: column;
     background-color: #58ABC1;
-    height: 91vh;
+    min-height: 100vh;
+    padding: 20px;
     
   }
   
   .about .group {
     height: 530px;
-    left: 300px;
-    position: fixed;
-    bottom: 50px;
-    width: 850px;
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    left: -200px;
+    padding: 20px;
     
+  
   }
   
   .about .IMG {
@@ -374,21 +377,6 @@
   button:active {
     background: linear-gradient(32deg, cyan, #f0edcf, #ffeb3b, #03a9f4);
   }
-  @media (min-width: 768px) {
-    .about .group {
-        width: 850px; /* Adjust width for larger screens */
-    }
-
-    .about .IMG {
-        width: 426px; /* Adjust width for larger screens */
-    }
-
-    .about .overlap,
-    .about .overlap-group,
-    .about .overlap-group-2,
-    .about .group-2 {
-        display: block; /* Display overlapping elements for larger screens */
-    }
-}
+  
 
   
