@@ -421,13 +421,10 @@
       margin-top: 10px;
     }
     .about .btn{
-      position: static; 
-      width: 100%;
-      font-size: 12px;
-      text-align: center;
-      margin: 0 auto;
-      margin-top: 250px; 
-      margin-left: 0; 
+     margin-top: -160px;
+     margin-left: -20px;
+     width: 150%;
+     font-size: 13px;
     }
     .about .div{
       position: static; 
@@ -475,9 +472,6 @@
       margin-left: -490px;
       margin-top: -290px;
       
-    }
-    .about .text-wrapper-4 {
-    
     }
    
   }
