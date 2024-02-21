@@ -374,6 +374,21 @@
   button:active {
     background: linear-gradient(32deg, cyan, #f0edcf, #ffeb3b, #03a9f4);
   }
-  
+  @media (min-width: 768px) {
+    .about .group {
+        width: 850px; /* Adjust width for larger screens */
+    }
+
+    .about .IMG {
+        width: 426px; /* Adjust width for larger screens */
+    }
+
+    .about .overlap,
+    .about .overlap-group,
+    .about .overlap-group-2,
+    .about .group-2 {
+        display: block; /* Display overlapping elements for larger screens */
+    }
+}
 
   
