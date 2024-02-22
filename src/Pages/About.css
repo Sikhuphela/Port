@@ -421,78 +421,65 @@
     background: linear-gradient(32deg, cyan, #f0edcf, #ffeb3b, #03a9f4);
   }
   @media screen and (max-width: 768px) {
-    .about .group {
-      height: 200px;
-      margin-top: -500px;
-      left: -200px; /* Adjust position for smaller screens */
+    .about .IMG {
+      height: 340px; /* Decreased height by 100px */
+      width: calc(100% - 250px); /* Adjusted width */
     }
-    
+  
     .card-2 {
-      height: 200px;
-      width: 150px;
-      margin-left: -50px;
-      margin-top: 10px;
+      width: 250px; /* Decreased width by 100px */
+      height: 400px; /* Decreased height by 100px */
     }
-    .about .btn{
-     margin-top: -30px;
-     margin-left: -40px;
-     width: 120%;
-     font-size: 13px;
+  
+    .about .cooking,
+    .about .div,
+    .about .text-wrapper-2,
+    .about .text-wrapper-3,
+    .about .text-wrapper-4,
+    .about .text-wrapper-5,
+    .about .group-2,
+    .about .btn {
+      width: 100%; /* Set width to 100% */
+      text-align: center; /* Center the text */
+      margin: 20px auto; /* Center the element */
+      position: static; /* Change position to static */
+      margin-top: 0; /* Remove margin-top */
+      margin-left: 0; /* Remove margin-left */
     }
-    .about .div{
-      position: static; 
-      width: 100%;
-      font-size: 16px;
-      text-align: center;
-      margin: 0 auto;
-      margin-top: 210px; 
-      margin-left: -90px; 
-    }
-    .about .text-wrapper-7{
-      margin-left: -595px;
-      margin-top: 175px; 
-      font-size: 16px;
-    }
-    .about .text-wrapper-2{
-      margin-left: -560px;
-      font-size: 12px;
-      margin-bottom: -150px;
-
-    }
-    .about .text-wrapper-3{
-      font-size: 12px;
-      margin-left: -625px;
-      margin-bottom: -480px;
-   
-    }
-    .about .text-wrapper-5{
-      font-size: 12px;
-      margin-left: -660px;
-      margin-top: 150px;
-
-    }
-    .about .cooking{
-      margin-left: -540px;
-      font-size: 12px;
-      margin-bottom: -125px;
-    }
-    .card{
-      position: static; 
-      font-size: 11px;
-      width: 50%;
-      text-align: center;
-      margin: 0 auto;
-      margin-left: -490px;
-      margin-top: -235px;
-      
-    }
-    .go-corner{
-      margin-right: 693px;
-      margin-top: -235px;
-    }
-    .card:before {
-      right: -30px; /* Adjust position for smaller screens */
-      top: -30px; /* Adjust position for smaller screens */
   }
-   
+  
+  @media screen and (max-width: 480px) {
+    .about .group {
+      height: auto; /* Adjusted height to fit the content */
+      margin-top: 0; /* Remove negative margin */
+      left: 0; /* Center the group */
+    }
+  
+    .about .IMG {
+      height: 240px; /* Decreased height by 100px */
+      width: calc(100% - 200px); /* Adjusted width */
+    }
+  
+    .card-2 {
+      width: 200px; /* Decreased width by 100px */
+      height: 320px; /* Decreased height by 100px */
+    }
+  
+    .about .cooking,
+    .about .div,
+    .about .text-wrapper-2,
+    .about .text-wrapper-3,
+    .about .text-wrapper-4,
+    .about .text-wrapper-5,
+    .about .group-2,
+    .about .btn {
+      font-size: 14px; /* Decrease font size */
+      width: 100%; /* Set width to 100% */
+      text-align: center; /* Center the text */
+      margin: 10px auto; /* Center the element */
+      position: static; /* Change position to static */
+      margin-top: 0; /* Remove margin-top */
+      margin-left: 0; /* Remove margin-left */
+    }
   }
+  
