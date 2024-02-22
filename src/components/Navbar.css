@@ -74,4 +74,33 @@ span{
     color: #f0decf; 
     font-size: 24px;
 }
-
+@media screen and (max-width: 768px) {
+    .navbar {
+      height: auto;
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .menu-bars {
+      margin-left: auto;
+      margin-right: 20px;
+    }
+  
+    .nav-menu {
+      width: 100%;
+      left: -100%;
+    }
+  
+    .nav-menu.active {
+      left: 0;
+    }
+  
+    .navbar-toggle {
+      height: 60px;
+    }
+  
+    .social-icons {
+      margin-top: 20px;
+      justify-content: center;
+    }
+  }
