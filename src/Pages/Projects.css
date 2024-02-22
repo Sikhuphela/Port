@@ -76,11 +76,8 @@
   margin-top: 150px;
   color: #438192;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 60px;
-
-  width: 30px;
-  height: 30px;
   border-radius: 50%;
   text-align: center;
 }
@@ -114,7 +111,7 @@
   left: 700px;
   line-height: normal;
   position: absolute;
-  top:220px;
+  top:210px;
   white-space: nowrap;
   width: 95px;
 }
@@ -161,10 +158,8 @@
   margin-top: 150px;
   color: #438192;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 60px;
-  width: 30px;
-  height: 30px;
   border-radius: 50%;
   text-align: center;
 }
@@ -192,14 +187,14 @@
   left: 195px;
   line-height: normal;
   position: absolute;
-  top:550px;
+  top:510px;
   white-space: nowrap;
   width: 95px;
 }
 
 .layer-2 {
   position: absolute;
-  top: 600px;
+  top: 560px;
   left: 195px;
   width: 320px;
   height: 200px;
@@ -226,7 +221,7 @@
   font-weight: 400;
   line-height: normal;
   position: absolute;
-  top: 50px;
+  top: 20px;
   left: 50px;
   display: flex;
   align-items: center;
@@ -236,10 +231,8 @@
   margin-top: 150px;
   color: #438192;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 60px;
-  width: 30px;
-  height: 30px;
   border-radius: 50%;
   text-align: center;
 }
@@ -261,8 +254,8 @@
   top: -330px;
   position: relative;
   right: -200px;
-  width: 360px;
-  height: 242px;
+  width: 320px;
+  height: 200px;
   border-radius: 15px;
   transition: transform 0.5s;
   
