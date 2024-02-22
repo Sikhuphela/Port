@@ -454,17 +454,18 @@
   @media screen and (max-width: 480px) {
     
     .card-2{
-      width: 200px;
-      height: 300px;
-      left: 200px;
-      margin-top: 150px;
+      width: 150px;
+      height: 250px;
+      left: 250px;
+      margin-top: 120px;
     }
+    
     .about .IMG {
-      height: 290px;
-      width: 202px;
+      height: 250px;
+      width: 152px;
       left: 0px;
       border-radius: 15px;
-      margin-top: -25px;
+      margin-top: -30px;
     }
   
     .about .cooking,
