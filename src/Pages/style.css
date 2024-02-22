@@ -156,7 +156,7 @@ button:active {
   }
 
   .image {
-    bottom: 300px;
+    bottom: 320px;
     right: 5px;
     left: calc(50% - (-6px));
     width: 140px;
@@ -177,35 +177,36 @@ button:active {
   }
 
   h2 {
-    font-size: 20px;
-    left: 100px;
-    top: 500px;
+    font-size: 18px;
+    left: 160px;
+    top: 480px;
   }
 
   .home h4 {
-    font-size: 16px;
-    left: 130px;
-    top: 560px;
+    font-size: 14px;
+    left: 175px;
+    top: 510px;
   }
 
   .home p {
-    font-size: 16px;
-    left:160px;
-    top: 460px;
+    font-size: 14px;
+    left:200px;
+    top: 440px;
   }
 
   .image {
-    bottom: 320px;
-    right: 5px;
-    left: calc(50% - (-6px));
+    bottom: 250px;
+
+    left: calc(50% - 30px);
     width: 140px;
     height: 300px;
   }
 
   button {
-    width: 100px;
-    top: 200px;
-    left: calc(50% - (-30px));
+    width: 80px;
+    font-size: 12px;
+    top: 170px;
+    left: calc(50% - (-20px));
   }
 }
 
