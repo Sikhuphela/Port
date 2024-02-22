@@ -593,11 +593,12 @@ h4{
     h5{
     color: #F0EDCF;
      font-size: 15px;
-     margin-top: -50px;
+     margin-top: -70px;
      margin-left: 750px;
        }
- .skill h3{
+ .skill p{
 font-size: 15px;
 color: #F0EDCF;
-margin-top: 200px;
+margin-top: -30px;
+margin-left: 750px;
  } 

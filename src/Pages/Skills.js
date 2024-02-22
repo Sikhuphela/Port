@@ -10,7 +10,7 @@ function Skills() {
     <section>
       <h3>My Skills</h3>
       <div class="text"> 
-      <span class="ani">b</span> 
+      <span class="ani">B</span> 
       <span class="ani">a</span>
       <span class="ani">c</span>
       <span class="ani">k</span> 
@@ -22,7 +22,7 @@ function Skills() {
     
    <div className='container1' id='Skills'>
         <div class="text-1"> 
-      <span class="ani">f</span> 
+      <span class="ani">F</span> 
       <span class="ani">r</span>
       <span class="ani">o</span>
       <span class="ani">n</span> 
@@ -95,7 +95,7 @@ function Skills() {
         </div>
 
         <div className="skill">
-        <h3>NodeJs</h3>  
+        <p><b>NodeJs</b></p>  
           <div class="loader-3">
             <div class="intern-3"></div>
             <div class="external-shadow-3">
