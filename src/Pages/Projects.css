@@ -3,7 +3,7 @@
   .projects {
   display: flex;
   flex-direction: column;
-  height: 150vh;
+  height: auto;
   background-color: #58ABC1;
    
     
@@ -16,7 +16,7 @@
     width: 1261px;
 }
 .imag {
-  top: 0;
+  top: 170px;
   position: relative;
   right: 250px;
   width: 350px;
@@ -39,11 +39,11 @@
 
 .layer {
   position: absolute;
-  top:250px;
+  top:260px;
   left: 195px;
   width: 350px;
   height: 230px;
-  background: linear-gradient( #F0EDCF,#9CD0DE,#F0EDCF,#9CD0DE);
+  background: linear-gradient(rgb(193, 252, 252),#8f8f8b);
   border-radius: 15px;
   opacity: 0;
   transition: opacity 0.5s;
@@ -95,7 +95,7 @@
 
 
 .photo {
-  top:-240px;
+  top:-70px;
   position: relative;
   left: 250px;
   width: 350px;
@@ -124,7 +124,7 @@
   width: 350px;
   height: 230px;
   padding: 20px;
-  background: linear-gradient(#f0edcf, #9cd0de, #f0edcf, #9cd0de);
+  background: linear-gradient(rgb(193, 252, 252),#8f8f8b);
   border-radius: 15px;
   opacity: 0;
   transition: opacity 0.5s;
@@ -171,7 +171,7 @@
   width: 1261px;
 }
 .calculator {
-  top: -180px;
+  top: 20px;
   position: relative;
   right: 250px;
   width: 350px;
@@ -187,18 +187,18 @@
   left: 195px;
   line-height: normal;
   position: absolute;
-  top:510px;
+  top:550px;
   white-space: nowrap;
   width: 95px;
 }
 
 .layer-2 {
   position: absolute;
-  top: 550px;
+  top: 590px;
   left: 195px;
   width: 350px;
   height: 220px;
-  background: linear-gradient(#F0EDCF, #9CD0DE, #F0EDCF, #9CD0DE);
+  background: linear-gradient(rgb(193, 252, 252),#8f8f8b);
   border-radius: 15px;
   opacity: 0;
   transition: opacity 0.5s;
@@ -251,7 +251,7 @@
   transition: transform 0.5s;
 }
 .Taxc{
-  top: -330px;
+  top: -130px;
   position: relative;
   right: -150px;
   width: 350px;
@@ -269,18 +269,18 @@
   left: 150px;
   line-height: normal;
   position: absolute;
-  top: -370px;
+  top: -170px;
   white-space: nowrap;
   width: 95px;
 }
 
 .layer-3 {
   position: absolute;
-  top: -330px;
+  top: -130px;
   left: 150px;
   width: 350px;
   height: 220px;
-  background: linear-gradient(#F0EDCF, #9CD0DE, #F0EDCF, #9CD0DE);
+  background: linear-gradient(rgb(193, 252, 252),#8f8f8b);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
