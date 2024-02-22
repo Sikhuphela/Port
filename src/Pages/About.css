@@ -456,8 +456,8 @@
     .card-2{
       width: 150px;
       height: 250px;
-      left: 250px;
-      margin-top: px;
+      left: 360px;
+      margin-top: 20px;
     }
     
     .about .IMG {
@@ -468,14 +468,15 @@
       margin-top: -30px;
     }
     .card{
-      margin-top: -360px;
-      right: 200px;
-      height: 265px;
-      width:  300px;
+      margin-top: -380px;
+      right: 80px;
+      height: 300px;
+      width:  230px;
+      font-size: 14px;
     }
   
-    .about .cooking,
-    .about .text-wrapper-3,
+    
+    
     .about .text-wrapper-4,
     .about .text-wrapper-5,
     .about .btn {
@@ -488,11 +489,24 @@
     .about .div{
       margin-right: 300px;
       font-size: 15px;
-      margin-left: 80px;
-      margin-top: 220px;
+      margin-left: 200px;
+      margin-top: 240px;
     }
     .about .text-wrapper-2{
-      margin-right: 500px;
+      margin-top: 190px;
+      margin-left: -150px
     }
-  }
+    .about .cooking{
+      margin-top: 170px;
+      margin-left: -150px
+    }
+    .about .text-wrapper-3{
+      margin-left: -150px
+    }
+    .about .text-wrapper-7{
+    
+    }
+    }
+    
+  
   
