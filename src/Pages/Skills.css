@@ -307,7 +307,7 @@
     position: relative;
     cursor: not-allowed;
     scale: 0.7;
-    top: -375px;
+    top: -90px;
     left: 250px;
   }
   
@@ -409,7 +409,7 @@
     position: relative;
     cursor: not-allowed;
     scale: 0.7;
-    top: -375px;
+    top: -50px;
     left: 250px;
   }
   
@@ -503,7 +503,7 @@
         position: relative;
         cursor: not-allowed;
         scale: 0.7;
-        top: -375px;
+        top: -50px;
         left: 250px;
       }
       
@@ -585,10 +585,19 @@
     }
 h4{
        color: #F0EDCF;
-       margin-left: 700px;
+       margin-left: 750px;
+       margin-top: -300px;
+       
+    }
    
-    }
-    .python{
-      
-    }
-
+    h5{
+    color: #F0EDCF;
+     font-size: 15px;
+     margin-top: -50px;
+     margin-left: 750px;
+       }
+ .skill h3{
+font-size: 15px;
+color: #F0EDCF;
+margin-top: 200px;
+ } 

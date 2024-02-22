@@ -72,30 +72,39 @@ function Skills() {
       </div>
 
 
-      <h4>Java</h4>  
-<div class="loader">
-  <div class="intern"></div>
-  <div class="external-shadow">
-    <div class="central"></div>
-  </div>
-</div>
+      <div className="skill-container">
+      <div className="skill-wrapper">
+        <div className="skill">
+          <h4>Java</h4>  
+          <div class="loader">
+            <div class="intern"></div>
+            <div class="external-shadow">
+              <div class="central"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div className="skill">
+        <h5>Python</h5>  
+          <div class="loader-2">
+            <div class="intern-2"></div>
+            <div class="external-shadow-2">
+              <div class="central-2"></div>
+            </div>
+          </div>
+        </div>
 
-<h4 className='python'>Python</h4>  
-<div class="loader-2">
-  <div class="intern-2"></div>
-  <div class="external-shadow-2">
-    <div class="central-2"></div>
-  </div>
-</div>
-
-<h4>NodeJs</h4>  
-<div class="loader-3">
-  <div class="intern-3"></div>
-  <div class="external-shadow-3">
-    <div class="central-3"></div>
-  </div>
-</div>
-
+        <div className="skill">
+        <h3>NodeJs</h3>  
+          <div class="loader-3">
+            <div class="intern-3"></div>
+            <div class="external-shadow-3">
+              <div class="central-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     </section>
     </div>
   );
