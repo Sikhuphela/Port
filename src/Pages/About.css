@@ -2,8 +2,8 @@
 .about {
   display: flex;
   flex-direction: column;
+  height: 122vh;
   background-color: #58ABC1;
-  
 }
 
 .about .group {
@@ -26,6 +26,7 @@
 }
 .card-2{
   width: 350px;
+  top: -100px;
   left: -50px;
   height: 500px;
   transition: all 0.2s;
