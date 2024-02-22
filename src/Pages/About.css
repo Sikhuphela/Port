@@ -423,7 +423,7 @@
   @media screen and (max-width: 768px) {
     .about .group {
       height: 200px;
-      margin-top: -500px;
+      margin-top: -300px;
       left: -200px;
     }
   
@@ -457,7 +457,7 @@
       width: 150px;
       height: 250px;
       left: 250px;
-      margin-top: 120px;
+      margin-top: px;
     }
     
     .about .IMG {
@@ -467,16 +467,32 @@
       border-radius: 15px;
       margin-top: -30px;
     }
+    .card{
+      margin-top: -360px;
+      right: 200px;
+      height: 265px;
+      width:  300px;
+    }
   
     .about .cooking,
-    .about .div,
-    .about .text-wrapper-2,
     .about .text-wrapper-3,
     .about .text-wrapper-4,
     .about .text-wrapper-5,
-    .about .group-2,
     .about .btn {
       font-size: 14px;
+    }
+    .about .btn {
+      margin-left: 40px;
+      
+    }
+    .about .div{
+      margin-right: 300px;
+      font-size: 15px;
+      margin-left: 80px;
+      margin-top: 220px;
+    }
+    .about .text-wrapper-2{
+      margin-right: 500px;
     }
   }
   
