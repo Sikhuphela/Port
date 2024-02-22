@@ -345,7 +345,7 @@
   
   .intern {
     position: absolute;
-    color: white;
+    color: #F0EDCF;
     z-index: 9999;
   }
   
@@ -583,7 +583,8 @@
         }
         
     }
-    .skills h4{
-        margin-left: 800px;
+h4{
+       color: #F0EDCF;
+       margin-left: 700px;
     }
 
