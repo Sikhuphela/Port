@@ -118,8 +118,8 @@ span{
     }
   
     .nav-menu {
-      width: 40%;
-      left: -100%;
+      width: 37%;
+      left: -80%;
     }
   
     .nav-menu.active {
@@ -135,5 +135,8 @@ span{
     margin-left: 230px;
       margin-top: -35px;
       justify-content: center;
+    }
+    .nav-text a{
+        font-size: 15px;
     }
   }
