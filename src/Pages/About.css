@@ -421,14 +421,17 @@
     background: linear-gradient(32deg, cyan, #f0edcf, #ffeb3b, #03a9f4);
   }
   @media screen and (max-width: 768px) {
-    .about .IMG {
-      height: 340px; /* Decreased height by 100px */
-      width: calc(100% - 250px); /* Adjusted width */
+    .about .group {
+      height: 200px;
+      margin-top: -500px;
+      left: -200px;
     }
   
-    .card-2 {
-      width: 250px; /* Decreased width by 100px */
-      height: 400px; /* Decreased height by 100px */
+    .about .IMG {
+      height: 50px;
+      width: 20px;
+      left: -400px;
+      border-radius: 0;
     }
   
     .about .cooking,
@@ -439,30 +442,29 @@
     .about .text-wrapper-5,
     .about .group-2,
     .about .btn {
-      width: 100%; /* Set width to 100% */
-      text-align: center; /* Center the text */
-      margin: 20px auto; /* Center the element */
-      position: static; /* Change position to static */
-      margin-top: 0; /* Remove margin-top */
-      margin-left: 0; /* Remove margin-left */
+      position: static;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 0;
+      margin-left: 0;
     }
   }
   
   @media screen and (max-width: 480px) {
-    .about .group {
-      height: auto; /* Adjusted height to fit the content */
-      margin-top: 0; /* Remove negative margin */
-      left: 0; /* Center the group */
+    
+    .card-2{
+      width: 200px;
+      height: 300px;
+      left: 200px;
+      margin-top: 150px;
     }
-  
     .about .IMG {
-      height: 240px; /* Decreased height by 100px */
-      width: calc(100% - 200px); /* Adjusted width */
-    }
-  
-    .card-2 {
-      width: 200px; /* Decreased width by 100px */
-      height: 320px; /* Decreased height by 100px */
+      height: 290px;
+      width: 202px;
+      left: 0px;
+      border-radius: 15px;
+      margin-top: -25px;
     }
   
     .about .cooking,
@@ -473,13 +475,7 @@
     .about .text-wrapper-5,
     .about .group-2,
     .about .btn {
-      font-size: 14px; /* Decrease font size */
-      width: 100%; /* Set width to 100% */
-      text-align: center; /* Center the text */
-      margin: 10px auto; /* Center the element */
-      position: static; /* Change position to static */
-      margin-top: 0; /* Remove margin-top */
-      margin-left: 0; /* Remove margin-left */
+      font-size: 14px;
     }
   }
   
