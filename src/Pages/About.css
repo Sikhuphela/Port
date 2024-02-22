@@ -457,7 +457,7 @@
       width: 150px;
       height: 250px;
       left: 360px;
-      margin-top: 20px;
+      margin-top: -150px;
     }
     
     .about .IMG {
@@ -468,23 +468,28 @@
       margin-top: -30px;
     }
     .card{
-      margin-top: -380px;
+      margin-top: -375px;
       right: 80px;
       height: 300px;
       width:  230px;
       font-size: 14px;
     }
-  
+    .about {
+      display: flex;
+      flex-direction: column;
+      height: 180vh;
+      background-color: #58ABC1;
+    }
     
-    
-    .about .text-wrapper-4,
+
     .about .text-wrapper-5,
     .about .btn {
       font-size: 14px;
     }
     .about .btn {
-      margin-left: 40px;
-      
+      margin-left: -150px;
+      width: 100px;
+      margin-top: 140px;
     }
     .about .div{
       margin-right: 300px;
@@ -497,16 +502,23 @@
       margin-left: -150px
     }
     .about .cooking{
-      margin-top: 170px;
+      margin-top: 160px;
       margin-left: -150px
     }
     .about .text-wrapper-3{
-      margin-left: -150px
+     margin-top: -80px;
+     margin-left: 440px;
     }
     .about .text-wrapper-7{
-    
+      font-size: 15px;
+      margin-top: 255px;
+      margin-left: -190px;
+      
+    }
+    .about .text-wrapper-5{
+    margin-top: -65px;
+    margin-left: 325px;
     }
     }
     
-  
   
