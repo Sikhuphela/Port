@@ -80,6 +80,7 @@ function Skills() {
   </div>
 </div>
 
+<h4 className='python'>Python</h4>  
 <div class="loader-2">
   <div class="intern-2"></div>
   <div class="external-shadow-2">
@@ -87,6 +88,7 @@ function Skills() {
   </div>
 </div>
 
+<h4>NodeJs</h4>  
 <div class="loader-3">
   <div class="intern-3"></div>
   <div class="external-shadow-3">
