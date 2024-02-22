@@ -320,10 +320,10 @@
     width: 10em;
     height: 10em;
     border-radius: 50%;
-    box-shadow: 0.5em 1em 1em blueviolet,
-      -0.5em 0.5em 1em blue,
-      0.5em -0.5em 1em purple,
-      -0.5em -0.5em 1em cyan;
+    box-shadow: 0.5em 1em 1em cyan,
+      -0.5em 0.5em 1em #F0EDCF,
+      0.5em -0.5em 1em cyan,
+      -0.5em -0.5em 1em  #F0EDCF;
   }
   
   .external-shadow {
@@ -334,10 +334,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    box-shadow: 0.5em 0.5em 3em blueviolet,
-      -0.5em 0.5em 3em blue,
-      0.5em -0.5em 3em purple,
-      -0.5em -0.5em 3em cyan;
+    box-shadow: 0.5em 0.5em 3em cyan,
+      -0.5em 0.5em 3em #F0EDCF,
+      0.5em -0.5em 3em cyan,
+      -0.5em -0.5em 3em #F0EDCF;
     z-index: 999;
     animation: rotate 20s linear ;
     background-color: #212121;
@@ -421,10 +421,10 @@
     width: 10em;
     height: 10em;
     border-radius: 50%;
-    box-shadow: 0.5em 1em 1em blueviolet,
-      -0.5em 0.5em 1em blue,
-      0.5em -0.5em 1em purple,
-      -0.5em -0.5em 1em cyan;
+    box-shadow: 0.5em 1em 1em cyan,
+    -0.5em 0.5em 1em #F0EDCF,
+    0.5em -0.5em 1em cyan,
+    -0.5em -0.5em 1em  #F0EDCF;
   }
   
   .external-shadow-2 {
@@ -435,10 +435,10 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    box-shadow: 0.5em 0.5em 3em blueviolet,
-      -0.5em 0.5em 3em blue,
-      0.5em -0.5em 3em purple,
-      -0.5em -0.5em 3em cyan;
+    box-shadow: 0.5em 0.5em 3em cyan,
+      -0.5em 0.5em 3em #F0EDCF,
+      0.5em -0.5em 3em cyan,
+      -0.5em -0.5em 3em #F0EDCF;
     z-index: 999;
     animation: rotate 20s linear infinite;
     background-color: #212121;
@@ -516,10 +516,10 @@
         width: 10em;
         height: 10em;
         border-radius: 50%;
-        box-shadow: 0.5em 1em 1em blueviolet,
-          -0.5em 0.5em 1em blue,
-          0.5em -0.5em 1em purple,
-          -0.5em -0.5em 1em cyan;
+        box-shadow: 0.5em 0.5em 3em cyan,
+      -0.5em 0.5em 3em #F0EDCF,
+      0.5em -0.5em 3em cyan,
+      -0.5em -0.5em 3em #F0EDCF;
       }
       
       .external-shadow-3 {
@@ -530,10 +530,10 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        box-shadow: 0.5em 0.5em 3em blueviolet,
-          -0.5em 0.5em 3em blue,
-          0.5em -0.5em 3em purple,
-          -0.5em -0.5em 3em cyan;
+        box-shadow: 0.5em 0.5em 3em cyan,
+        -0.5em 0.5em 3em #F0EDCF,
+        0.5em -0.5em 3em cyan,
+        -0.5em -0.5em 3em #F0EDCF;
         z-index: 999;
         animation: rotate 20s linear infinite;
         background-color: #212121;
