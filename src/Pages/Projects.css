@@ -338,10 +338,9 @@
    gap: 56px;
 }
 .group{
-
   margin-left: 70px;
- 
 }
+
 .imag{
   width: 300px;
   margin-left: 230px;
@@ -351,6 +350,10 @@
 margin-top: -70px;
  margin-left: -150px;
 }
+.text-wrapper-1{
+  margin-top: 200px;
+  margin-left: -400px;
+  }
 .layer{
 margin-left: -145px;
 width: 300px;
@@ -394,6 +397,14 @@ margin-left: -100px;
     margin-top: 190px;
     margin-left: -145px;
   }
+  .layer-1{
+   margin-right: 200px;
+  }
+  .layer-1{
+    margin-left: -645px;
+    width: 300px;
+    margin-top: 230px;
+      }
  }
  
 

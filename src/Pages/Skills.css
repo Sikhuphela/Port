@@ -689,7 +689,17 @@ margin-top: 10px;
     background-color: #58ABC1;
   }
   .text-1 {
-   margin-left: 500px;
+   left: -530px;
+   position: relative;
 
   }
+  .text {
+    right: 200px;
+    position: relative;
+  }
+  .skill-wrapper {
+    margin-right: 100px;
+  }
+    
+  
 }
