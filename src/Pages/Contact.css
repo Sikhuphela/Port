@@ -248,7 +248,21 @@ height: 62px;
 
 
 @media only screen and (max-width: 788px) {
-  
+  .contact .rectangle{
+    margin-left: -170px;
+    margin-top: -50px;
+    
+  }
+  .contact .rectangle-5{
+    margin-left: -550px;
+    margin-top: 500px;
+    width: 30px;
+    height: 500px;
+  }
+  .contact-container {
+
+    height: 1200px;
+  }
 
 }
  @media only screen and (max-width: 480px) {
@@ -258,9 +272,9 @@ height: 62px;
     
   }
   .contact .rectangle-5{
-    margin-left: -550px;
+    margin-left: -560px;
     margin-top: 500px;
-    width: 350px;
+    width: 375px;
     height: 500px;
   }
   .contact-container {
