@@ -157,9 +157,11 @@ button:active {
 
   .image {
     bottom: 250px;
-    left: calc(50% - 30px);
+    /* left: calc(50% - 30px); */
+    margin-left: -40px;
     width: 140px;
     height: 300px;
+    border-radius: 50%;
   }
 
   button {
@@ -177,35 +179,38 @@ button:active {
   }
 
   h2 {
-    font-size: 18px;
-    left: 160px;
+    font-size: 20px;
+    left: 80px;
     top: 480px;
   }
 
   .home h4 {
     font-size: 14px;
-    left: 175px;
+    left: 105px;
     top: 510px;
   }
 
   .home p {
     font-size: 14px;
-    left:200px;
+    left:120px;
     top: 440px;
   }
 
   .image {
     bottom: 250px;
     left: calc(50% - 30px);
-    width: 140px;
+    width: 300px;
     height: 300px;
+    border-radius: 50%;
+    margin-left: -120px;
   }
 
   button {
     width: 80px;
     font-size: 12px;
     top: 200px;
-    left: calc(50% - (-20px));
+    left: calc(50% - (45px));
+    
   }
 }
 
