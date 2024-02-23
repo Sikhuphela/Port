@@ -255,3 +255,11 @@ height: 62px;
   background-color: #58ABC1;
 }
 }
+@media screen and (max-width: 768px) {
+  .contact-container {
+  display: flex;
+  flex-direction: column;
+  height: 772px;
+  background-color: #58ABC1;
+}
+}
