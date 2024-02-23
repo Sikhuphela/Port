@@ -605,6 +605,50 @@ color: #F0EDCF;
 margin-top: -30px;
 margin-left: 750px;
  } 
+ @media only screen and (max-width: 788px) {
+  
+  .containers {
+    max-width: 470px;
+  }
+
+.container1 {
+ margin-left: -10px;
+font-size: 10px;
+margin-top: 10px;
+  }
+  .bar{
+    font-size: 20px;
+  
+  }
+  .Technical-bars .bar{
+    margin-top: 10px;
+   
+  }
+  .Technical-bars .bar .progress-line {
+
+    width: 70%; 
+  }
+  
+  .Technical-bars .bar .progress-line span {
+    margin-top: 0px;
+    
+  }
+  .skill-container{
+    margin-top: -20px;
+    margin-left:-500px;
+  }
+
+  .containers {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    background-color: #58ABC1;
+  }
+  .text-1 {
+   margin-left: 500px;
+
+  }
+}
  @media only screen and (max-width: 480px) {
   
   .containers {

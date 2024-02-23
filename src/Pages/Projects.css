@@ -320,14 +320,50 @@
 .group-4:hover .Taxc { 
   transform: scale(1.1);
 }
-@media screen and (min-width: 480px) and (max-width: 788px) {
+@media only screen and (max-width: 788px)  {
  .imag{
   margin-left: 200px;
  }
 }
-@media screen and (min-width: 480px) {
-  .imag{
-   margin-left: 200px;
+@media only screen and (max-width: 480px)  {
+
+  
+  .projects{
+    max-width: 480px;
+
+  }
+.box {
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
+   gap: 56px;
+}
+.group{
+
+  margin-left: 70px;
+ 
+}
+.imag{
+  width: 300px;
+  margin-left: 230px;
+  margin-top: -50px;
+}
+.text-wrapper{
+margin-top: -70px;
+ margin-left: -150px;
+}
+.layer{
+margin-left: -145px;
+width: 300px;
+margin-top: -80px;
+}
+.photo{
+  margin-left: -200px;
+  margin-top: 250px;
+  width: 300px;
+}
+.text-wrapper-1{
+margin-right: 100px;
+ 
   }
  }
  
