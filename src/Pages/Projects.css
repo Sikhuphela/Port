@@ -321,67 +321,15 @@
   transform: scale(1.1);
 }
 @media screen and (min-width: 480px) and (max-width: 788px) {
-  .project .group,
-  .project .calculator-3,
-  .projects .text-wrapper,
-  .projects .text-wrapper-1,
-  .projects .text-wrapper-2,
-  .projects .text-wrapper-3 {
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .imag,
-  .photo,
-  .calculator,
-  .group-4,
-  .Taxc {
-    width: 280px;
-    height: 180px;
-    position: relative;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-  
-  .projects .text-wrapper,
-  .projects .text-wrapper-1,
-  .projects .text-wrapper-2,
-  .projects .text-wrapper-3 {
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    text-align: center;
-    width: auto;
-  }
-  
-  .layer,
-  .layer-1,
-  .layer-2,
-  .layer-3 {
-    top: 200px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-  }
-  
-  .layer p,
-  .layer-1 p,
-  .layer-2 p,
-  .layer-3 p {
-    left: 20px;
-    right: 20px;
-    text-align: center;
-  }
-  
-  .layer a,
-  .layer-1 a,
-  .layer-2 a,
-  .layer-3 a {
-    margin-top: 120px;
-  }
+ .imag{
+  margin-left: 200px;
+ }
 }
+@media screen and (min-width: 480px) {
+  .imag{
+   margin-left: 200px;
+  }
+ }
+ 
+
 
