@@ -154,7 +154,7 @@
   }
   
   .about .overlap-group {
-    height: 30px;
+    height: 70px;
     left: 481px;
     position: absolute;
     top: 362px;
@@ -232,10 +232,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 400;
-    left: 0;
+    left: 670px;
     line-height: normal;
     position: absolute;
-    bottom: 40px;
+    top: 450px;
     white-space: nowrap;
     width: 155px;
     cursor: pointer;
@@ -487,9 +487,10 @@
       font-size: 14px;
     }
     .about .btn {
+      
       margin-left: -150px;
       width: 100px;
-      margin-top: 140px;
+      margin-top: 190px;
     }
     .about .div{
       margin-right: 300px;

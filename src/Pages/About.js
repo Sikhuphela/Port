@@ -20,16 +20,13 @@ function About() {
         <div className="div">Hobbies</div>
         <div className="overlap-group">
           <div className="text-wrapper-2"><FontAwesomeIcon icon={faBook} style={{ color: "#f0edcf" }} /> Reading</div>
-        </div>
-        <div className="overlap">
+        
         <div className="cooking"><FontAwesomeIcon icon={faUtensils} style={{ color: "#f0edcf" }} /> Cooking</div>
       </div>
         <div className="text-wrapper-3">
           <FontAwesomeIcon icon={faCode} style={{ color: "#f0edcf" }} />
           <span>Coding</span>
-          <div>
-          <button className="btn">Download CV</button>
-          </div>
+         
         </div>
         <div className="text-wrapper-5"><FontAwesomeIcon icon={faGlobe} style={{ color: "#f0edcf" }} /> Culture Studies</div>
         <div className="group-2">
@@ -47,9 +44,13 @@ function About() {
                 <div class="go-corner">
         <div class="go-arrow">+</div>
       </div>
+      
               </div>
             </div>
           </div>
+        </div>
+        <div>
+        <button className="btn">Download CV</button>
         </div>
       </div>
     </div>
