@@ -356,14 +356,43 @@ margin-left: -145px;
 width: 300px;
 margin-top: -80px;
 }
+
 .photo{
   margin-left: -200px;
   margin-top: 250px;
   width: 300px;
 }
+.layer-2{
+  width: 300px;
+  margin-top: 190px;
+  margin-left: -145px;
+}
 .text-wrapper-1{
-margin-right: 100px;
+margin-left: -100px;
  
+  }
+  .calculator{
+    margin-left: 300px;
+    width: 300px;
+    margin-top: -90px;
+  }
+  .text-wrapper-1{
+    margin-top: 200px;
+  }
+  .group-4{
+    margin-top: 250px;
+    margin-left: -200px;
+  }
+  .Taxc{
+    width: 300px;
+  }
+  .layer-3{
+    width: 300px;
+   
+  }
+  .projects .text-wrapper-2{
+    margin-top: 190px;
+    margin-left: -145px;
   }
  }
  
