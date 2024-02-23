@@ -384,8 +384,8 @@
     background-size: 300%;
     border-radius: 30px;
     z-index: 1;
-    top: 100px;
-    margin-left: -200px;
+    margin-top: -30px;
+    margin-left: -180px;
   }
   
   button:hover {

@@ -309,10 +309,16 @@ margin-left: -620px;
 margin-top: -400px;
 }
 .footer{
+  margin-top: 500px;
   width: 200px;
-  margin-left: -500px;
+  margin-left: -520px;
  }  
  .footer-icon{
    font-size: 25px;
+   
+ }
+ .footer .copy{
+  font-size: 12px;
+  margin-left: 50px;
  }
 }
