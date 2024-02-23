@@ -609,10 +609,24 @@ margin-left: 750px;
   }
 
 .container1 {
- margin-left: -50px;
+ margin-left: -10px;
 font-size: 10px;
 margin-top: -150px;
   }
+  .bar{
+    font-size: 20px;
+  
+  }
+  .Technical-bars .bar{
+    margin-top: 10px;
+  }
+  .Technical-bars .bar .progress-line {
 
- 
+    width: 70%; 
+  }
+  
+  .Technical-bars .bar .progress-line span {
+    margin-top: 0px;
+    
+  }
 }
