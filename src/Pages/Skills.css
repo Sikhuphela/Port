@@ -602,3 +602,17 @@ color: #F0EDCF;
 margin-top: -30px;
 margin-left: 750px;
  } 
+ @media only screen and (max-width: 480px) {
+  
+  .containers {
+    
+  }
+
+.container1 {
+ margin-left: -50px;
+font-size: 10px;
+margin-top: -150px;
+  }
+
+ 
+}
