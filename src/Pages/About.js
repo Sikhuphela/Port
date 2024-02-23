@@ -49,9 +49,9 @@ function About() {
             </div>
           </div>
         </div>
-        <div>
-        <button className="btn">Download CV</button>
-        </div>
+         <div>
+          <button className="btn">Download CV</button>
+          </div>
       </div>
     </div>
   </div>

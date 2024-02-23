@@ -154,10 +154,10 @@
   }
   
   .about .overlap-group {
-    height: 70px;
+    height: 100px;
     left: 481px;
     position: absolute;
-    top: 362px;
+    bottom: 100px;
     width: 134px;
   }
   
@@ -454,31 +454,31 @@
   @media screen and (max-width: 480px) {
     
     .card-2{
-      width: 150px;
+      width: 250px;
       height: 250px;
-      left: 360px;
+      left: 260px;
       margin-top: -150px;
     }
     
     .about .IMG {
       height: 250px;
-      width: 152px;
+      width: 250px;
       left: 0px;
       border-radius: 15px;
       margin-top: -30px;
     }
     .card{
-      margin-top: -375px;
-      right: 80px;
+      margin-top: -220px;
+      right: 150px;
       height: 300px;
-      width:  230px;
+      width:  300px;
       font-size: 14px;
     }
     .about {
       display: flex;
       flex-direction: column;
       height: 180vh;
-      background-color: #58ABC1;
+      
     }
     
 
