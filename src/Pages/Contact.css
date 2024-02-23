@@ -174,9 +174,9 @@ height: 62px;
   font-size: 15px;
   font-weight: 400;
   line-height: normal;
-  position: absolute;
-  left:750px;
-  top: 620px;
+  position:absolute;
+  left:200px;
+  top: 220px;
   width: 135px;
   height: 40px;
   display:relative; 
@@ -311,7 +311,7 @@ margin-top: -400px;
 .footer{
   margin-top: 500px;
   width: 200px;
-  margin-left: -520px;
+  margin-left: -550px;
  }  
  .footer-icon{
    font-size: 25px;

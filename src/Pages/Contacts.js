@@ -138,17 +138,17 @@ const handleRecaptchaChange = (value) => {
         </div>
       </div>
       <footer className='footer'>
-        <div className='footer-content'>
-          <div className='footer-icon'>
-            <Link to="/home">
-              <FaHome style={{ color: '#f0edcf' }} />
-            </Link>
-          </div>
+      <div className='footer-content'>
+        <div className='footer-icon'>
+          <Link to="/home">
+            <FaHome style={{ color: '#f0edcf' }} />
+          </Link>
         </div>
-        <div className='lab'>
-          <div className='copy'>Copyright @ Aphiwe Sikhuphela - all Rights Reserved</div>
-        </div>
-      </footer>
+      </div>
+      <div className='lab'>
+        <div className='copy'>Copyright @ Aphiwe Sikhuphela - all Rights Reserved</div>
+      </div>
+    </footer>
     </div>
   );
 }
