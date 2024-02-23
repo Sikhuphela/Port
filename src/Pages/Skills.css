@@ -10,8 +10,11 @@
     height: 500px;
     padding: 75px;
     margin-left: 120px;
+    margin-top: 80px;
     
-    
+  }
+  .skill-container{
+    margin-top: -450px;
   }
   
   
@@ -150,8 +153,8 @@
     font-size: 25px;
     font-weight: 600;
     margin-left: 750px;
-    margin-top: 150px;
-    margin-bottom: -100px;
+    margin-bottom: 420px;
+   
 
   }
   .ani:nth-child(1) {
@@ -605,13 +608,13 @@ margin-left: 750px;
  @media only screen and (max-width: 480px) {
   
   .containers {
-    
+    max-width: 470px;
   }
 
 .container1 {
  margin-left: -10px;
 font-size: 10px;
-margin-top: -150px;
+margin-top: 10px;
   }
   .bar{
     font-size: 20px;
@@ -619,6 +622,7 @@ margin-top: -150px;
   }
   .Technical-bars .bar{
     margin-top: 10px;
+   
   }
   .Technical-bars .bar .progress-line {
 
@@ -628,5 +632,16 @@ margin-top: -150px;
   .Technical-bars .bar .progress-line span {
     margin-top: 0px;
     
+  }
+  .skill-container{
+    margin-top: -20px;
+    margin-left:-500px;
+  }
+
+  .containers {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    background-color: #58ABC1;
   }
 }

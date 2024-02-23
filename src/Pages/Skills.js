@@ -9,15 +9,7 @@ function Skills() {
     <div className='containers'>
     <section>
       <h3>My Skills</h3>
-      <div class="text"> 
-      <span class="ani">B</span> 
-      <span class="ani">a</span>
-      <span class="ani">c</span>
-      <span class="ani">k</span> 
-      <span class="ani">e</span> 
-      <span class="ani">n</span> 
-      <span class="ani">d</span>
-    </div>
+      
     
     
    <div className='container1' id='Skills'>
@@ -73,6 +65,15 @@ function Skills() {
 
 
       <div className="skill-container">
+      <div class="text"> 
+      <span class="ani">B</span> 
+      <span class="ani">a</span>
+      <span class="ani">c</span>
+      <span class="ani">k</span> 
+      <span class="ani">e</span> 
+      <span class="ani">n</span> 
+      <span class="ani">d</span>
+    </div>
       <div className="skill-wrapper">
         <div className="skill">
           <h4>Java</h4>  
