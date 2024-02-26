@@ -657,8 +657,9 @@ margin-top: 10px;
 
 .container1 {
  margin-left: -10px;
-font-size: 10px;
-margin-top: 10px;
+ font-size: 10px;
+ margin-bottom: 20px;
+ margin-top: 30px;
   }
   .bar{
     font-size: 20px;
@@ -685,15 +686,18 @@ margin-top: 10px;
   .containers {
     display: flex;
     flex-direction: column;
-    height: 150vh;
+    height: 170vh;
     background-color: #58ABC1;
   }
   .text-1 {
+  font-size: 12px;
    left: -530px;
    position: relative;
 
   }
   .text {
+    
+  font-size: 12px;
     right: 200px;
     position: relative;
   }

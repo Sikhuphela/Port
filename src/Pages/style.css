@@ -173,7 +173,7 @@ button:active {
 }
 @media screen and (max-width: 480px) {
   h3 {
-    font-size: 25px;
+    font-size: 30px;
     left: 180px;
     top: 80px;
   }

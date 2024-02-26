@@ -305,13 +305,14 @@ margin-left: -720px;
 margin-top: 550px;
 }
 .contact .submit-btn{
-margin-left: -620px;
-margin-top: -400px;
+margin-left: -50px;
+width: 100px;
+margin-top: -10px
 }
 .footer{
   margin-top: 500px;
   width: 200px;
-  margin-left: -550px;
+  margin-left: -540px;
  }  
  .footer-icon{
    font-size: 25px;
