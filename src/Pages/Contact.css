@@ -2,11 +2,11 @@
   display: flex;
   flex-direction: column;
   height: 772px;
-  background-color: #58ABC1;
+  background-color: #0C356A;
 }
 
 .contact .rectangle{
-  background-color: #027492;
+  background-color: #0C356A;
   box-shadow: inset 0px 4px 4px #00000040, 0px 4px 4px #00000040;
   height: 480px;
   position:absolute;
@@ -53,7 +53,7 @@
 }
 
 .contact .rectangle-5{
-  background-color: #64C6DF;
+  background-color: #0C356A;
   box-shadow: inset 0px 4px 4px #00000040, 0px 4px 4px #00000040;
   height: 480px;
   position:absolute;
@@ -63,7 +63,7 @@
 }
 
 .contact .overlap{
-  color: #38d14c;
+  color: #279EFF;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -202,7 +202,7 @@ height: 62px;
   width: 95px;
 }
 .footer{
-  background-color: #64C6DF;
+  background-color: #279EFF;
   box-shadow:  inset 0px 4px 4px #00000040, 0px 4px 4px #00000040;
   height: 70px;
   left: 0;

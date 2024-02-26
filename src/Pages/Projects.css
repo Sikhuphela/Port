@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   height: auto;
-  background-color: #58ABC1;
+  background-color: #0C356A;
    
     
   }
@@ -74,7 +74,7 @@
 
 .layer a {
   margin-top: 150px;
-  color: #438192;
+  color: cyan;
   text-decoration: none;
   font-size: 23px;
   line-height: 60px;
