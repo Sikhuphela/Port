@@ -140,9 +140,10 @@ const handleRecaptchaChange = (value) => {
       <footer className='footer'>
       <div className='footer-content'>
         <div className='footer-icon'>
-          <Link to="/home">
+          <Link to="/">
             <FaHome style={{ color: '#f0edcf' }} />
           </Link>
+          
         </div>
       </div>
       <div className='lab'>

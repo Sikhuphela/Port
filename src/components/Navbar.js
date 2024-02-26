@@ -20,8 +20,8 @@ function Navbar() {
                     </Link>
                     <div className="social-icons">
                         <a href="https://github.com/Sikhuphela?tab=repositories" className="social-icon"><FaIcons.FaGithub /></a>
-                        <a href="https://linkedin.com/in/aphiwe-sikhuphela-a80b74284" className="social-icon"><FaIcons.FaDiscord /></a>
-                        <a href="" className="social-icon"><FaIcons.FaLinkedin /></a>
+                        <a href="https://discord.com/channels/@me" className="social-icon"><FaIcons.FaDiscord /></a>
+                        <a href="https://linkedin.com/in/aphiwe-sikhuphela-a80b74284" className="social-icon"><FaIcons.FaLinkedin /></a>
                     </div>
                 </div>
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
