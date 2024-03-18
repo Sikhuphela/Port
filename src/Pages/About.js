@@ -34,7 +34,7 @@ function About() {
             <div className="cooking"><FontAwesomeIcon icon={faUtensils} style={{ color: "#f0edcf" }} /> Cooking</div>
           </div>
           <div className="text-wrapper-3">
-            <FontAwesomeIcon icon={faCode} style={{ color: "#f0edcf" }} /> Coding
+            <FontAwesomeIcon icon={faCode} style={{ color: "#f0edcf" }} />  Coding
           </div>
           <div className="text-wrapper-5">
             <FontAwesomeIcon icon={faGlobe} style={{ color: "#f0edcf" }} /> Culture Studies
@@ -59,6 +59,7 @@ function About() {
         </div>
       </div>
     </div>
+    
   );
 }
 

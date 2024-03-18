@@ -82,7 +82,7 @@ const handleRecaptchaChange = (value) => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165800.04030341068!2d18.4240553!3d-33.9248685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc500f8826eed7%3A0x687fe1fc2828aa87!2sCape%20Town!5e0!3m2!1sen!2sza!4v1644720678477!5m2!1sen!2sza"
             width="290"
             height="300"
-            style={{ border: 0, marginTop: '120px', marginLeft: '10px' }}
+            style={{ border: 0, marginTop: '120px', marginLeft: '20px' }}
             allowFullScreen=""
             loading="lazy"
           ></iframe>

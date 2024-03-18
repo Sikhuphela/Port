@@ -12,6 +12,10 @@ function Home() {
       <div className="image">
         <img className="pic" alt="Pic" src={picImage} />
       </div>
+      <div class="spinner"></div>
+      <div class="spinner-1"></div>
+      <div class="spinner-2"></div>
+      <div class="spinner-3"></div>
       <Link to="/about">
         <button>ABOUT ME</button>
       </Link>
