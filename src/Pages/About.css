@@ -26,7 +26,7 @@
 .card-2{
   width: 350px;
   top: -100px;
-  left: -50px;
+  left: 450px;
   height: 500px;
   transition: all 0.2s;
   position: relative;
@@ -80,7 +80,32 @@
     transform: translateY(10px);
   }
 }
+.about .btn {
+  color: #000000;
+  background-color: #027492;
+  border-radius: 15px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  left: 670px;
+  line-height: normal;
+  position: absolute;
+  top: 450px;
+  white-space: nowrap;
+  width: 155px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 
+}
+
+.about .btn:hover{
+  background-color: #03a9f4;
+
+}
 
 
 
@@ -97,160 +122,10 @@
     left: -400px; /* Adjust position for smaller screens */
     border-radius: 0; /* Remove border radius for smaller screens */
   }
-
-  .about .cooking,
-  .about .div,
-  .about .text-wrapper-2,
-  .about .text-wrapper-3,
-  .about .text-wrapper-4,
-  .about .text-wrapper-5,
-  .about .group-2,
-  .about .btn {
-    position: static; /* Change position to static for smaller screens */
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 0; /* Remove margin-top for smaller screens */
-    margin-left: 0; /* Remove margin-left for smaller screens */
-  }
 }
-
-  .about .overlap {
-    height: 30px;
-    left: 481px;
-    position: absolute;
-    top: 423px;
-    width: 134px;
-  }
-  .about .cooking{
- top: -25px;
- right: 30p;
-}
-
-  
-  .about .cooking {
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-family: 400;
-    left: -30px;
-    line-height: normal;
-    position: absolute;
-    bottom:55px;
-    width: 107px;
-    text-align: center;
-    margin: 20px auto;
-    width: 100%;
-    
-  }
-  
-  .about .div {
-    color:#f0edcf;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    left: 450px;
-    letter-spacing: 4.8px;
-    line-height: normal;
-    position: absolute;
-    top: 275px;
-    width: 135px;
-  }
-  
-  .about .overlap-group {
-    height: 100px;
-    left: 481px;
-    position: absolute;
-    bottom: 100px;
-    width: 134px;
-  }
-  
-  .about .text-wrapper-2 {
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    left: 0;
-    line-height: normal;
-    position: absolute;
-    bottom:50px;
-    white-space: nowrap;
-    width: 111px;
-  }
-  
-  .about .text-wrapper-3 {
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    left: 670px;
-    line-height: normal;
-    position: absolute;
-    bottom: 188px;
-    width: 83px;
-    display: flex;
-    align-items: center;
-    
-  }
-  .about .text-wrapper-3 span {
-    margin-left: 5px;
-    
-  }
-  
- 
-  .about .text-wrapper-4 {
-    color: #f0edcf;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    left: 450px;
-    letter-spacing: 4.8px;
-    line-height: normal;
-    position: absolute;
-    top: 20px;
-    width: 331px;
-  }
-  
-  .about .text-wrapper-5 {
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    left: 675px;
-    line-height: normal;
-    position: absolute;
-    top: 360px;
-    width: 162px;
-  }
-  
   
 
-.about .btn {
-    color: #000000;
-    background-color: #027492;
-    border-radius: 15px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    left: 670px;
-    line-height: normal;
-    position: absolute;
-    top: 450px;
-    white-space: nowrap;
-    width: 155px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
 
-}
-
-.about .btn:hover{
-    background-color: #03a9f4;
-
-}
 
 @keyframes pulse {
     0% {
@@ -261,27 +136,10 @@
     }
 }
   
-  .about .overlap-group-2 {
-    height: 26px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 25px;
-  }
   
   
-  .about .text-wrapper-7 {
-    color: #f0edcf;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    left: 640px;
-    letter-spacing: 4.8px;
-    line-height: normal;
-    position: absolute;
-    top: 275px;
-    width: 166px;
-  }
+  
+  
   
   .about .group-wrapper {
     height: 265px;
@@ -290,21 +148,18 @@
     width: 407px;
   }
   
-  .box .div-wrapper {
-    background-color: #64c6df;
-    height: 265px;
-    border-radius: 265px;
-  }
+  
   .card {
     display: block;
     position: relative;
-    max-width: 400px;
+    width: 400px;
     max-height: 320px;
     background-color: #f2f8f9;
     font-size: 15px;
     border-radius: 10px;
     padding: 2em 1.2em;
-    margin-top: -550px;
+    margin-top: -600px;
+    margin-left: 450px;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
@@ -383,20 +238,60 @@
     color: #ffffff;
   }
     
-  
-  
-  
-  .about .energetic-software {
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    left: 0;
-    line-height: normal;
-    position: absolute;
-    top: 80px;
-    width: 376px;
+  .tab-container{
+    margin-left: 900px;
+    margin-top: -350px;
   }
+  .tab-titles {
+    display: flex;
+    margin: 20px 0 40px;
+    
+  }
+  
+  .tab-links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #f2f8f9;
+    position: relative;
+  }
+  
+  .tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: cyan;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: width 0.5s;
+  }
+  
+  .tab-links.active-link::after {
+    width: 50%;
+  }
+  
+  .tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 15px;
+    color: #f0edcf;
+  }
+  
+  .tab-contents ul li span {
+    color: cyan;
+    font-size: 14px;
+  }
+  
+  .tab-contents {
+    display: none;
+  }
+  
+  .tab-contents.active-tab {
+    display: block;
+  }
+  
   .about .btn {
     text-decoration: none;
     position: relative;
@@ -413,25 +308,14 @@
     background-size: 300%;
     border-radius: 30px;
     z-index: 1;
-    margin-top: -550px;
-    margin-left: -150px;
+    margin-top: -420px;
+    margin-left: -580px;
   }
   
   button:hover {
     animation: ani 8s linear infinite;
     border: none;
   }
-  
-  @keyframes ani {
-    0% {
-      background-position: 0%;
-    }
-  
-    100% {
-      background-position: 400%;
-    }
-  }
-  
   button:before {
     content: "";
     position: absolute;
@@ -466,105 +350,62 @@
       left: -400px;
       border-radius: 0;
     }
-  
-    .about .cooking,
-    .about .div,
-    .about .text-wrapper-2,
-    .about .text-wrapper-3,
-    .about .text-wrapper-4,
-    .about .text-wrapper-5,
-    .about .group-2,
-    .about .btn {
-      position: static;
-      width: 100%;
-      text-align: center;
-      margin: 0 auto;
-      margin-top: 0;
-      margin-left: 0;
-      margin-bottom: 0px;
+    
+    .about {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background-color:#0C356A;
     }
+    
+    
   }
   
   @media screen and (max-width: 480px) {
-    
+   
     .card-2{
-      width: 260px;
+      width: 250px;
       height: 320px;
-      left: 240px;
-      margin-top: -110px;
+      left: 270px;
+      margin-top: -200px;
       margin-bottom: 200px;
     }
     
     .about .IMG {
       height: 320px;
-      width: 260px;
+      width: 250px;
       left: 0px;
       border-radius: 15px;
       margin-top: -30px;
     }
     .card{
-      margin-top: -480px;
-      right: 180px;
+      margin-top: -200px;
+      right: 600px;
       height: 300px;
-      width:  300px;
-      font-size: 14px;
+      width:  250px;
+      font-size: 12px;
     }
     .about {
       display: flex;
       flex-direction: column;
-      height: 175vh;
+      height: 150vh;
       
     }
-    .about .h3{
-     margin-bottom: 50px;
+    .tab-container{
+      margin-left: 250px;
+      margin-top: 350px;
     }
-    
-
-    .about .text-wrapper-5,
-    .about .btn {
-      font-size: 14px;
-    }
-    .about .btn {
-     margin-left: 300px;
-     margin-top: 50px;
-     width: 130px;
-    }
-    .about .div{
-      margin-left: 100px;
-      font-size: 19px;
-      margin-top: 320px;
-    }
-    .about .text-wrapper-2{
-      margin-top: 500px;
-      margin-left: -120px
-    }
-    .about .cooking{
-      margin-top: 20px;
-      margin-left: -120px
-    }
-    .about .text-wrapper-3{
-     margin-top: 20px;
-     margin-left: 430px;
-    }
-    .about .text-wrapper-7{
-      font-size: 19px;
-      margin-top: 275px;
-      margin-left: -215px;
+    .tab-links{
+      font-size: 15px;
+      margin-right: 30px;
       
     }
-    .about .text-wrapper-5{
-    margin-top: 20px;
-    margin-left: 315px;
+    .tab-contents ul li{
+      font-size: 13px;
     }
-    .overlap-group {
-      top: 100px;
-      margin-left: -130px;
-      height: 10px;
+    .tab-contents ul li span {
+      font-size: 12px;
     }
-    span {
-      margin-top: 50px;
-    }
-    
-    }
-    
+  }
+  
   

@@ -534,6 +534,13 @@ button:active {
     left: calc(50% - (-20px));
   }
 }
+.spinner {
+  width: 60px;
+  height: 60px;
+  left: 50%;
+  top: -50px;
+  transform: translateX(-50%);
+}
 @media screen and (max-width: 480px) {
   h3 {
     font-size: 30px;
@@ -560,7 +567,7 @@ button:active {
   }
 
   .image {
-    bottom: 250px;
+    bottom: 300px;
     left: calc(50% - 30px);
     width: 300px;
     height: 300px;
@@ -574,6 +581,37 @@ button:active {
     top: 200px;
     left: calc(50% - (50px));
     
+  }
+  .spinner {
+    width: 40px;
+    height: 40px;
+    left: 30%;
+    top: -200px;
+    transform: translateX(-50%);
+  }
+  .spinner-1 {
+    width: 40px;
+    height: 40px;
+    left: 30%;
+    top: px;
+    transform: translateX(-50%);
+  }
+  .spinner-2 {
+    width: 40px;
+    height: 40px;
+    left: -30%;
+    top: -250px;
+    transform: translateX(-50%);
+  }
+  .spinner-3 {
+    width: 40px;
+    height: 40px;
+    left: -30%;
+    top:300px;
+    transform: translateX(-50%);
+  }
+  .homes{
+ margin-left: 200px;
   }
 }
 
