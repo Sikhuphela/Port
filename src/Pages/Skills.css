@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 90vh;
-  background-color: #0C356A;
+  background-color: #00ABB3;
 }
 
   .container1 {
@@ -150,9 +150,10 @@
   
   .text {
     font-family: Roboto, sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
     margin-left: 750px;
+    color: #F0EDCF;
     margin-bottom: 420px;
    
 
@@ -228,8 +229,9 @@
   }  
   .text-1 {
     font-family: Roboto, sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
+    color: #F0EDCF;
     margin-top: -20px;
     margin-bottom: 30px;
 
@@ -642,7 +644,7 @@ margin-top: 10px;
     display: flex;
     flex-direction: column;
     height: 150vh;
-    background-color: #58ABC1;
+  
   }
   .text-1 {
    margin-left: 500px;
@@ -652,7 +654,7 @@ margin-top: 10px;
  @media only screen and (max-width: 480px) {
   
   .containers {
-    max-width: 470px;
+
   }
 
 .container1 {
@@ -686,22 +688,24 @@ margin-top: 10px;
     display: flex;
     flex-direction: column;
     height: 170vh;
-    background-color: #0C356A;
+
   }
   .text-1 {
-   font-size: 10px;
+   font-size: 2px;
    left: -530px;
    position: relative;
 
   }
   .text {
-    font-size: 11px;
+    font-size: 2px;
     right: 200px;
     position: relative;
   }
   .skill-wrapper {
     margin-right: 100px;
   }
-    
+  .containers{
+max-width: 480px;
+  }
   
 }

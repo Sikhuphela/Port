@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './About.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBook, faUtensils, faCode, faGlobe } from '@fortawesome/free-solid-svg-icons';
 import picImage1 from '../../src/components/Images/pic.jpg';
 import cv from '../../src/Pages/CV/Aphiwe_Sikhuphela_Professional_CV.pdf.pdf';
 
@@ -71,7 +70,7 @@ function About() {
           <div className={`tab-contents ${activeTab === 'education' ? 'active-tab' : ''}`} id='education'>
             <ul>
               <li><span>2019</span><br />National Diploma for Information Technology at<br/> Walter Sisulu University</li>
-              <li><span>2013</span><br /> Matric at Sundra Secondary School</li>
+              <li><span>2013</span><br /> Matriculated at Sundra Secondary School</li>
             </ul>
           </div>
           <div>

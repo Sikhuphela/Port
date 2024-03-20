@@ -2,7 +2,7 @@
 .home {
   display: flex;
   flex-direction: column;
-  background-color: #0C356A;
+  background-color: #00ABB3;
   height: 90vh;
 }
 
@@ -25,7 +25,7 @@ h2 {
   position: absolute;
   top: 640px;
   font-family: Arial, sans-serif;
-  text-shadow: 2px 2px 4px #F0EDCF;
+  text-shadow: 2px 2px 4px cyan;
 }
 
 .home h4 {
@@ -34,8 +34,10 @@ h2 {
   left: 560px;
   position: absolute;
   top: 680px;
+  color: #F0EDCF;
   font-family: Arial, sans-serif;
-  text-shadow: 2px 2px 4px #F0EDCF;
+  text-shadow: 2px 2px 4px cyan;
+
 }
 
 .home p {
@@ -50,8 +52,8 @@ h2 {
 
 .image {
   position: fixed;
-  bottom: 300px;
-  left: 410px;
+  bottom: 280px;
+  left: 450px;
   width: 450px;
   height: 400px;
   border-radius: 50%;
@@ -63,6 +65,11 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+}
+.me{
+  margin-right: 120px;
+  color:#000000;
+  text-shadow: 2px 2px 4px #F0EDCF;  
 }
 
 @keyframes floatAnimation {
@@ -81,7 +88,7 @@ button {
   font-size: 14px;
   font-family: inherit;
   cursor: pointer;
-  color: #f0edcf;
+  color: #0C356A;
   width: 9em;
   height: 3em;
   line-height: 2em;
@@ -137,8 +144,8 @@ button:active {
   --clr: #111;
   width: 100px;
   height: 100px;
-  left: 500px;
-  top: -100px;
+  margin-right:200px;
+ margin-bottom: 50px;
   position: relative;
   animation: spin 2s linear infinite;
 }
@@ -547,23 +554,31 @@ button:active {
     left: 200px;
     top: 80px;
   }
-
+  .home {
+   
+    height: 93vh;
+  }
   h2 {
     font-size: 20px;
-    left: 80px;
-    top: 480px;
+    left: 100px;
+    top: 610px;
   }
 
   .home h4 {
     font-size: 14px;
-    left: 105px;
-    top: 510px;
+    left: 125px;
+    top: 640px;
   }
 
   .home p {
     font-size: 14px;
-    left:108px;
-    top: 440px;
+    left:150px;
+    top: 580px;
+  }
+  .me{
+   
+    margin-right: 80px;
+
   }
 
   .image {
@@ -574,18 +589,20 @@ button:active {
     border-radius: 50%;
     margin-left: -120px;
   }
-
+.card-1{
+  margin-top: -300px;
+}
   button {
     width: 80px;
-    font-size: 12px;
-    top: 200px;
-    left: calc(50% - (50px));
+    font-size: 11px;
+    top: 150px;
+    left: calc(50% - (30px));
     
   }
   .spinner {
     width: 40px;
     height: 40px;
-    left: 30%;
+    left: 60%;
     top: -200px;
     transform: translateX(-50%);
   }
@@ -593,21 +610,21 @@ button:active {
     width: 40px;
     height: 40px;
     left: 30%;
-    top: px;
+    top: 320px;
     transform: translateX(-50%);
   }
   .spinner-2 {
     width: 40px;
     height: 40px;
     left: -30%;
-    top: -250px;
+    top: -340px;
     transform: translateX(-50%);
   }
   .spinner-3 {
     width: 40px;
     height: 40px;
     left: -30%;
-    top:300px;
+    top:250px;
     transform: translateX(-50%);
   }
   .homes{
