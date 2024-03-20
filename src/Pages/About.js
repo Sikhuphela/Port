@@ -37,7 +37,7 @@ function About() {
             <div className="div-wrapper">
               <div className="card">
                 <div className="card__title">
-                  <p className="small-desc">Energetic Software Developer Intern currently interning at ABSA, 
+                  <p className="small-desc">Energetic Software Developer Intern currently working at Younglings Africa, 
                   with a strong background in a software development learning program at Uvu Africa.
                    Proven track record in meeting deadlines and delivering outstanding results. 
                    Demonstrated leadership as Workshop Coordinator for the Second African Computer and Human Interactions Conference in 2018.
@@ -64,13 +64,13 @@ function About() {
           </div>
           <div className={`tab-contents ${activeTab === 'experience' ? 'active-tab' : ''}`} id='experience'>
             <ul>
-              <li><span>2024-Current</span><br />Software Developer at ABSA</li>
+              <li><span>2024-Current</span><br />Software Developer at Younglings Africa</li>
               <li><span>2023-2024</span><br /> Software Developer Intern at UVU Africa</li>
             </ul>
           </div>
           <div className={`tab-contents ${activeTab === 'education' ? 'active-tab' : ''}`} id='education'>
             <ul>
-              <li><span>2019</span><br />NDip Information Technology at<br/> Walter Sisulu University</li>
+              <li><span>2019</span><br />National Diploma for Information Technology at<br/> Walter Sisulu University</li>
               <li><span>2013</span><br /> Matric at Sundra Secondary School</li>
             </ul>
           </div>
