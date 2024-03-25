@@ -170,7 +170,7 @@
   
   
   .card-title {
-    color: #262626;
+    color: #c53a3a;
     font-size: 1.5em;
     line-height: normal;
     font-weight: 700;
@@ -390,7 +390,7 @@
     .about {
       display: flex;
       flex-direction: column;
-      height: 140vh;
+      height: 175vh;
       
     }
     .tab-container{
@@ -411,7 +411,7 @@
      .about .btn{
     margin-left: -620px;
     width: 100px;
-    margin-top:-450px ;
+    margin-top:-400px ;
     font-size: 12px;
     }
     .tab-links {

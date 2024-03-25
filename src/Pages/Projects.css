@@ -43,7 +43,7 @@
   left: 195px;
   width: 350px;
   height: 230px;
-  background: linear-gradient(rgb(193, 252, 252),#8f8f8b);
+  background:  linear-gradient(#F0EDCF,cyan,#F0EDCF,#F0EDCF);
   border-radius: 15px;
   opacity: 0;
   transition: opacity 0.5s;
@@ -60,7 +60,7 @@
 }
 
 .layer p {
-  color: #000000;
+  color: #3C4048;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -124,7 +124,7 @@
   width: 350px;
   height: 230px;
   padding: 20px;
-  background: linear-gradient(rgb(193, 252, 252),#8f8f8b);
+  background:  linear-gradient(#F0EDCF,cyan,#F0EDCF,#F0EDCF);
   border-radius: 15px;
   opacity: 0;
   transition: opacity 0.5s;
@@ -141,7 +141,7 @@
 
 /* Update position and styles for the paragraph text */
 .layer-1 p {
-  color: #000000;
+  color: #3C4048;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -198,7 +198,7 @@
   left: 195px;
   width: 350px;
   height: 220px;
-  background: linear-gradient(rgb(193, 252, 252),#8f8f8b);
+  background: linear-gradient(#F0EDCF,cyan,#F0EDCF,#F0EDCF);
   border-radius: 15px;
   opacity: 0;
   transition: opacity 0.5s;
@@ -215,7 +215,7 @@
 }
 
 .layer-2 p {
-  color: #000000;
+  color: #3C4048;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -280,7 +280,7 @@
   left: 150px;
   width: 350px;
   height: 220px;
-  background: linear-gradient(rgb(193, 252, 252),#8f8f8b);
+  background: linear-gradient(#F0EDCF,cyan,#F0EDCF,#F0EDCF);
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -295,7 +295,7 @@
 }
 
 .layer-3 p {
-  color: #000000;
+  color: #3C4048;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 400;

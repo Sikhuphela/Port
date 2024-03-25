@@ -44,6 +44,7 @@ h2 {
   text-align: right;
   font-size: 20px;
   left: 590px;
+  color: #3C4048;
   position: absolute;
   top: 600px;
   font-family: Arial, sans-serif;
@@ -68,7 +69,7 @@ h2 {
 }
 .me{
   margin-right: 120px;
-  color:#000000;
+  color:#3C4048;
   text-shadow: 2px 2px 4px #F0EDCF;  
 }
 
@@ -500,54 +501,92 @@ button:active {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
   h3 {
-    font-size: 25px;
-    left: 250px;
-    top: 80px;
+    font-size: 40px; /* Adjusted font size */
+    left: 300px; /* Adjusted position */
+    top: 100px; /* Adjusted position */
   }
 
   h2 {
-    font-size: 18px;
-    left: 160px;
-    top: 480px;
+    font-size: 30px; /* Adjusted font size */
+    left: 150px; /* Adjusted position */
+    top: 500px; /* Adjusted position */
   }
 
   .home h4 {
-    font-size: 14px;
-    left: 175px;
-    top: 510px;
+    font-size: 18px; /* Adjusted font size */
+    left: 175px; /* Adjusted position */
+    top: 530px; /* Adjusted position */
   }
 
   .home p {
-    font-size: 14px;
-    left:200px;
-    top: 440px;
+    font-size: 18px; /* Adjusted font size */
+    left: 200px; /* Adjusted position */
+    top: 460px; /* Adjusted position */
+  }
+
+  .me {
+    margin-right: 120px; /* Adjusted margin */
   }
 
   .image {
-    bottom: 250px;
-    /* left: calc(50% - 30px); */
-    margin-left: -40px;
-    width: 140px;
-    height: 300px;
+    bottom: 300px; /* Adjusted position */
+    left: calc(50% - 5px); /* Adjusted position */
+    width: 300px; /* Adjusted size */
+    height: 300px; /* Adjusted size */
     border-radius: 50%;
+    margin-left: -150px; /* Adjusted margin */
+  }
+
+  .card-1 {
+    margin-top: -350px; /* Adjusted margin */
   }
 
   button {
-    width: 80px;
-    font-size: 12px;
-    top: 200px;
-    left: calc(50% - (-20px));
+    width: 100px; /* Adjusted width */
+    font-size: 14px; /* Adjusted font size */
+    top: 120px; /* Adjusted position */
+    left: calc(50% - 50px); /* Adjusted position */
+  }
+
+  .spinner {
+    width: 50px; /* Adjusted size */
+    height: 50px; /* Adjusted size */
+    left: 60%; /* Adjusted position */
+    top: -150px; /* Adjusted position */
+    transform: translateX(-50%);
+  }
+
+  .spinner-1 {
+    width: 50px; /* Adjusted size */
+    height: 50px; /* Adjusted size */
+    left: 30%; /* Adjusted position */
+    top: 300px; /* Adjusted position */
+    transform: translateX(-50%);
+  }
+
+  .spinner-2 {
+    width: 50px; /* Adjusted size */
+    height: 50px; /* Adjusted size */
+    left: -30%; /* Adjusted position */
+    top: -300px; /* Adjusted position */
+    transform: translateX(-50%);
+  }
+
+  .spinner-3 {
+    width: 40px; /* Adjusted size */
+    height: 40px; /* Adjusted size */
+    left: -30%; /* Adjusted position */
+    top: 220px; /* Adjusted position */
+    transform: translateX(-50%);
+  }
+
+  .homes {
+    margin-left: 300px; /* Adjusted margin */
   }
 }
-.spinner {
-  width: 60px;
-  height: 60px;
-  left: 50%;
-  top: -50px;
-  transform: translateX(-50%);
-}
+
 @media screen and (max-width: 480px) {
   h3 {
     font-size: 30px;
@@ -556,24 +595,24 @@ button:active {
   }
   .home {
    
-    height: 93vh;
+    height: 91vh;
   }
   h2 {
     font-size: 20px;
     left: 100px;
-    top: 610px;
+    top: 450px;
   }
 
   .home h4 {
     font-size: 14px;
     left: 125px;
-    top: 640px;
+    top: 480px;
   }
 
   .home p {
     font-size: 14px;
     left:150px;
-    top: 580px;
+    top: 420px;
   }
   .me{
    
@@ -582,10 +621,10 @@ button:active {
   }
 
   .image {
-    bottom: 300px;
-    left: calc(50% - 30px);
-    width: 300px;
-    height: 300px;
+    bottom: 250px;
+    left: calc(50% - 5px);
+    width: 250px;
+    height:250px;
     border-radius: 50%;
     margin-left: -120px;
   }
@@ -595,7 +634,7 @@ button:active {
   button {
     width: 80px;
     font-size: 11px;
-    top: 150px;
+    top: 100px;
     left: calc(50% - (30px));
     
   }
@@ -603,28 +642,28 @@ button:active {
     width: 40px;
     height: 40px;
     left: 60%;
-    top: -200px;
+    top: -120px;
     transform: translateX(-50%);
   }
   .spinner-1 {
     width: 40px;
     height: 40px;
     left: 30%;
-    top: 320px;
+    top: 250px;
     transform: translateX(-50%);
   }
   .spinner-2 {
     width: 40px;
     height: 40px;
     left: -30%;
-    top: -340px;
+    top: -250px;
     transform: translateX(-50%);
   }
   .spinner-3 {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     left: -30%;
-    top:250px;
+    top:180px;
     transform: translateX(-50%);
   }
   .homes{

@@ -653,10 +653,6 @@ margin-top: 10px;
 }
  @media only screen and (max-width: 480px) {
   
-  .containers {
-
-  }
-
 .container1 {
  margin-left: -10px;
  font-size: 10px;
@@ -680,7 +676,6 @@ margin-top: 10px;
     
   }
   .skill-container{
-    margin-top: 50px;
     margin-left:-500px;
   }
 
