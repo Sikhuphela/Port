@@ -6,8 +6,11 @@
   height: auto;
   background-color: #00ABB3;
    
-    
   }
+.box{
+  margin-left: 150px;
+}
+
 .project .group{
     height: 288px;
     left: 0;
@@ -18,29 +21,31 @@
 .imag {
   top: 170px;
   position: relative;
-  right: 250px;
+  right: 230px;
   width: 350px;
   height: 230px;
   border-radius: 15px;
   transition: transform 0.5s;
 }
 .projects .text-wrapper{
-  color: #F0EDCF;
+  color: #3C4048;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  left: 200px;
+  left:300px;
   line-height: normal;
   position: absolute;
   top:210px;
   white-space: nowrap;
   width: 95px;
+  animation: fadeInUp 2s ease forwards;
+  animation-delay: s;
 }
 
 .layer {
   position: absolute;
   top:260px;
-  left: 195px;
+  left: 295px;
   width: 350px;
   height: 230px;
   background:  linear-gradient(#F0EDCF,cyan,#F0EDCF,#F0EDCF);
@@ -104,23 +109,25 @@
   transition: transform 0.5s;
 }
 .projects .text-wrapper-1{
-  color: #F0EDCF;
+  color: #3C4048;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  left: 700px;
+  left: 780px;
   line-height: normal;
   position: absolute;
   top:210px;
   white-space: nowrap;
   width: 95px;
+  animation: fadeInUp 2s ease forwards;
+  animation-delay: s;
 }
 
 
 .layer-1 {
   position: absolute;
   top: 250px; 
-  left: 695px;
+  left: 775px;
   width: 350px;
   height: 230px;
   padding: 20px;
@@ -173,29 +180,31 @@
 .calculator {
   top: 20px;
   position: relative;
-  right: 250px;
+  right: 240px;
   width: 350px;
-  height: 220px;
+  height: 230px;
   border-radius: 15px;
   transition: transform 0.5s;
 }
 .projects .text-wrapper-2{
-  color: #F0EDCF;
+  color: #3C4048;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  left: 195px;
+  left: 285px;
   line-height: normal;
   position: absolute;
   top:550px;
   white-space: nowrap;
   width: 95px;
+  animation: fadeInUp 2s ease forwards;
+  animation-delay: s;
 }
 
 .layer-2 {
   position: absolute;
-  top: 590px;
-  left: 195px;
+  top: 595px;
+  left: 285px;
   width: 350px;
   height: 220px;
   background: linear-gradient(#F0EDCF,cyan,#F0EDCF,#F0EDCF);
@@ -262,7 +271,7 @@
 }
 
 .projects .text-wrapper-3 {
-  color: #F0EDCF;
+  color: #3C4048;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -272,6 +281,8 @@
   top: -170px;
   white-space: nowrap;
   width: 95px;
+  animation: fadeInUp 2s ease forwards;
+  animation-delay: s;
 }
 
 .layer-3 {
@@ -331,8 +342,10 @@
   .projects{
     max-width: 480px;
 
+
   }
 .box {
+  margin-right: 200px;
    display: grid;
    grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
    gap: 56px;
@@ -355,32 +368,34 @@ margin-top: -70px;
   margin-left: -400px;
   }
 .layer{
-margin-left: -145px;
+margin-left: -245px;
 width: 300px;
 margin-top: -80px;
 }
 
 .photo{
-  margin-left: -200px;
+  margin-left: -180px;
   margin-top: 250px;
   width: 300px;
 }
+.layer-1{
+  margin-left: -725px;
+  width: 300px;
+  margin-top: 230px;
+    }
 .layer-2{
   width: 300px;
-  margin-top: 190px;
-  margin-left: -145px;
+  margin-top: 195px;
+  margin-left: -245px;
 }
 .text-wrapper-1{
 margin-left: -100px;
  
   }
   .calculator{
-    margin-left: 300px;
+    margin-left: 310px;
     width: 300px;
     margin-top: -90px;
-  }
-  .text-wrapper-1{
-    margin-top: 200px;
   }
   .group-4{
     margin-top: 250px;
@@ -388,23 +403,20 @@ margin-left: -100px;
   }
   .Taxc{
     width: 300px;
+    margin-left: 20px;
   }
   .layer-3{
     width: 300px;
-   
+   margin-left: 20px;
   }
   .projects .text-wrapper-2{
     margin-top: 190px;
-    margin-left: -145px;
+    margin-left: -160px;
   }
-  .layer-1{
-   margin-right: 200px;
+  .projects .text-wrapper-3{
+    margin-left: 100px;
   }
-  .layer-1{
-    margin-left: -645px;
-    width: 300px;
-    margin-top: 230px;
-      }
+ 
       .projects .text-wrapper-1{
         margin-left: -645px;
         margin-top: 235px;

@@ -10,11 +10,13 @@ h3 {
   color: #F0EDCF;
   text-align: right;
   font-size: 40px;
-  left: 700px;
+  left: 600px;
   position: absolute;
   top: 120px;
   font-family: Arial, sans-serif;
   text-shadow: 2px 2px 4px #F0EDCF;
+  animation: fadeInUp 2s ease forwards;
+  animation-delay: s;
 }
 
 h2 {
@@ -26,6 +28,8 @@ h2 {
   top: 640px;
   font-family: Arial, sans-serif;
   text-shadow: 2px 2px 4px cyan;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1s;
 }
 
 .home h4 {
@@ -37,8 +41,10 @@ h2 {
   color: #F0EDCF;
   font-family: Arial, sans-serif;
   text-shadow: 2px 2px 4px cyan;
-
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1.5s;
 }
+
 
 .home p {
   text-align: right;
@@ -49,6 +55,8 @@ h2 {
   top: 600px;
   font-family: Arial, sans-serif;
   text-shadow: 2px 2px 4px #F0EDCF;
+  animation: fadeInUp 2s ease forwards;
+  animation-delay: s;
 }
 
 .image {
@@ -60,6 +68,7 @@ h2 {
   border-radius: 50%;
   animation: floatAnimation 2s infinite alternate;
   transition: transform 0.3s ease-in-out;
+  
 }
 
 .pic {
@@ -71,6 +80,8 @@ h2 {
   margin-right: 120px;
   color:#3C4048;
   text-shadow: 2px 2px 4px #F0EDCF;  
+  animation: fadeInUp 2s ease forwards;
+  animation-delay: s;
 }
 
 @keyframes floatAnimation {
@@ -100,6 +111,8 @@ button {
   z-index: 1;
   top: 100px;
   left: 40px;
+  animation: fadeInUp 2s ease forwards;
+  animation-delay: s;
 }
 
 button:hover {
@@ -552,7 +565,7 @@ button:active {
 @media screen and (max-width: 480px) {
   h3 {
     font-size: 30px;
-    left: 200px;
+    left: 130px;
     top: 80px;
   }
   .home {

@@ -13,6 +13,8 @@
   left: 200px;
   top:200px;
   width: 330px;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1.5s; 
 }
 .contact .icon {
   color: #f0edcf;
@@ -39,7 +41,7 @@
 
 }
 
-.contact .label2 {
+  .contact .label2 {
   color: #000000;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -60,8 +62,19 @@
   left: 570px;
   top:200px;
   width: 550px;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1.5s; 
 }
-
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .contact .overlap{
   color: #00ABB3;
   font-family: Arial, Helvetica, sans-serif;
@@ -212,6 +225,7 @@ height: 62px;
   position:absolute;
   top: 790px;
   width: 100%;
+  
 }
 .footer .copy{
   color: #f0edcf;
@@ -224,6 +238,8 @@ height: 62px;
   top:25px;
   white-space: nowrap;
   width: 95px;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1.5s; 
   
 }
 .footer-icon {
@@ -233,6 +249,8 @@ height: 62px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1.5s; 
 }
 .footer-icon:hover{
   background-color: cyan;
@@ -245,6 +263,8 @@ height: 62px;
   top: 610px;
   left: 700px;
   width: 100px;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 1.5s; 
 }
 
 

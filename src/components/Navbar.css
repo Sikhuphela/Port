@@ -21,7 +21,7 @@
     justify-content: center;
     position: fixed;
     top: 0;
-    left: -100%;
+   /* left: -100%;*/
     transition: 850ms;
     z-index: 1;
 }
@@ -74,8 +74,14 @@ span{
 }
 
 .social-icon {
-  margin-left: 10px; 
+  margin-left: 10px;
   font-size: 24px;
+  transition: transform 0.5s;
+}
+
+.social-icon:hover {
+  transform: scale(1.4);
+  background-color:#3C4048;
 }
 @media screen and (max-width: 768px) {
     .navbar {
@@ -147,5 +153,7 @@ span{
     span{
       margin-bottom: 0px;
   }
-  
+  .navbar-toggle {
+   color: blueviolet;
+}
 }

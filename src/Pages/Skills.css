@@ -9,12 +9,13 @@
     width: 550px;
     height: 500px;
     padding: 75px;
-    margin-left: 120px;
+    margin-left: 220px;
     margin-top: 80px;
     
   }
   .skill-container{
     margin-top: -450px;
+    margin-left: 50px;
   }
   
   
@@ -153,7 +154,7 @@
     font-size: 18px;
     font-weight: 600;
     margin-left: 750px;
-    color: #F0EDCF;
+    color: #3C4048;
     margin-bottom: 420px;
    
 
@@ -231,7 +232,7 @@
     font-family: Roboto, sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: #F0EDCF;
+    color: #3C4048;
     margin-top: -20px;
     margin-bottom: 30px;
 

@@ -10,8 +10,8 @@ function Projects() {
   return (
     <div className='projects'>
       <h3>Projects</h3>
+<div className='container'>
       <div className='box'>
-
         {/* Banking App */}
         <div className='group'>
           <img className='imag' alt='BankApp' src={BankingApp} />
@@ -68,6 +68,7 @@ function Projects() {
           </div>
         </div>
 
+      </div>
       </div>
     </div>
   );
