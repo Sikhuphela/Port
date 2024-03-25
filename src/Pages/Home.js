@@ -9,7 +9,7 @@ function Home() {
     <div content='homes'>
       <p>Hello! My Name Is</p>
       <h2>APHIWE SIKHUPHELA</h2>
-      <h4><span className='me'>I'm  A</span><br/>Software Developer Intern</h4>
+      <h4><span className='me'>I am a</span><br/>Software Developer Intern</h4>
       </div>
       <div className="image">
         <img className="pic" alt="Pic" src={picImage} />
