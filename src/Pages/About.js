@@ -36,11 +36,13 @@ function About() {
             <div className="div-wrapper">
               <div className="card">
                 <div className="card__title">
-                  <p className="small-desc">Energetic Software Developer Intern currently working at Younglings Africa, 
-                  with a strong background in a software development learning program at Uvu Africa.
-                   Proven track record in meeting deadlines and delivering outstanding results. 
-                   Demonstrated leadership as Workshop Coordinator for the Second African Computer and Human Interactions Conference in 2018.
-                    Completed National Diploma for Information Technology at Walter Sisulu University.</p>
+                  <p className="small-desc">I am a dedicated and hardworking professional with a proven track record of 
+                  consistently meeting deadlines and delivering exceptional results. I thrive as an adaptable collaborator,
+                   excelling in challenging circumstances.
+                     With a demonstrated ability to meet deadlines and achieve outstanding outcomes, I also possess leadership and 
+                     problem-solving skills showcased during my tenure as the Workshop Coordinator for the Second African Computer
+                      and Human Interactions Conference in 2018
+                  </p>
                   <div className="go-corner">
                     <div className="go-arrow">+</div>
                   </div>

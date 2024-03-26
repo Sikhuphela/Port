@@ -11,21 +11,22 @@ export const SidebarData = [
     title: 'Home',
     path: '/',
     icon: <AiIcons.AiFillHome />,
-    cName: 'nav-text'
+    cName: 'nav-text',
+    id: 'about-section'
   },         
   {
   title: 'About',
   path: '/about',
   icon: <IoIcons.IoMdPerson />,
   cName: 'nav-text',
-  id: 'about-section' // ID of the about section
+  id: 'skills-section' // ID of the about section
   },
   {
     title: 'Skills',
     path: '/skills',
     icon: <IoIcons.IoMdCloseCircle />,
     cName: 'nav-text',
-    id: 'skills-section' // ID of the about section
+    id: 'project-section' // ID of the about section
   },
   {
     title: 'Projects',   

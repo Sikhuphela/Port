@@ -1,4 +1,7 @@
 /* src/components/style.css */
+html {
+  scroll-behavior: smooth;
+}
 .home {
   display: flex;
   flex-direction: column;
