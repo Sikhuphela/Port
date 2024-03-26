@@ -2,6 +2,10 @@ import React from 'react';
 import './style.css';
 import { Link } from 'react-router-dom'; 
 import picImage from '../../src/components/Images/pic2.jpg';
+import './About.css'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import picImage1 from '../../src/components/Images/pic.jpg';
+import cv from '../../src/Pages/CV/Aphiwe_Sikhuphela_Professional_CV.pdf.pdf';
 
 function Home() {
   return (
@@ -24,5 +28,6 @@ function Home() {
     </div>
   );
 }
+
 
 export default Home;

@@ -489,7 +489,7 @@ button:active {
   100% {
     transform: none;
   }
-
+ 
   25% {
     transform: translateX(-100%);
   }
@@ -540,7 +540,7 @@ button:active {
   }
 
   .image {
-    bottom: 250px;
+    bottom: 100px;
     /* left: calc(50% - 30px); */
     margin-left: -40px;
     width: 140px;
@@ -551,7 +551,7 @@ button:active {
   button {
     width: 80px;
     font-size: 12px;
-    top: 200px;
+    top: 230px;
     left: calc(50% - (-20px));
   }
 }
@@ -562,16 +562,18 @@ button:active {
   top: -50px;
   transform: translateX(-50%);
 }
-@media screen and (max-width: 480px) {
+
+@media only screen and (max-width: 540px) {
   h3 {
     font-size: 30px;
     left: 130px;
     top: 80px;
   }
+
   .home {
-   
     height: 91vh;
   }
+
   h2 {
     font-size: 20px;
     left: 100px;
@@ -586,33 +588,34 @@ button:active {
 
   .home p {
     font-size: 14px;
-    left:150px;
+    left: 150px;
     top: 420px;
   }
-  .me{
-   
-    margin-right: 80px;
 
+  .me {
+    margin-right: 80px;
   }
 
   .image {
     bottom: 250px;
     left: calc(50% - 5px);
     width: 250px;
-    height:250px;
+    height: 250px;
     border-radius: 50%;
     margin-left: -120px;
   }
-.card-1{
-  margin-top: -300px;
-}
+
+  .card-1 {
+    margin-top: -300px;
+  }
+
   button {
     width: 80px;
     font-size: 11px;
-    top: 100px;
-    left: calc(50% - (30px));
-    
+    top: 130px;
+    left: calc(50% - 30px);
   }
+
   .spinner {
     width: 40px;
     height: 40px;
@@ -620,6 +623,7 @@ button:active {
     top: -120px;
     transform: translateX(-50%);
   }
+
   .spinner-1 {
     width: 40px;
     height: 40px;
@@ -627,6 +631,7 @@ button:active {
     top: 250px;
     transform: translateX(-50%);
   }
+
   .spinner-2 {
     width: 40px;
     height: 40px;
@@ -634,18 +639,201 @@ button:active {
     top: -250px;
     transform: translateX(-50%);
   }
+
   .spinner-3 {
     width: 30px;
     height: 30px;
     left: -30%;
-    top:180px;
+    top: 180px;
     transform: translateX(-50%);
   }
-  .homes{
- margin-left: 200px;
+
+  .homes {
+    margin-left: 200px;
+  }
+  
+  /* Media Query for screens up to 360px width */
+@media only screen and (max-width: 360px) {
+  h3 { 
+    font-size: 30px;
+    left: 100px;
+    top: 80px;
+  }
+
+  .home {
+    height: 91vh;
+  }
+
+  h2 {
+    font-size: 20px;
+    left: 80px;
+    top: 500px;
+  }
+
+  .home h4 {
+    font-size: 14px;
+    left: 100px;
+    top: 530px;
+  }
+
+  .home p {
+    font-size: 14px;
+    left: 120px;
+    top: 470px;
+  }
+
+  .me {
+    margin-right: 80px;
+  }
+
+  .image {
+    bottom: 250px;
+    left: calc(50% - 5px);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: -120px;
+  }
+
+  .card-1 {
+    margin-top: -300px;
+  }
+
+  button {
+    width: 80px;
+    font-size: 11px;
+    top: 130px;
+    left: calc(50% - 30px);
+  }
+
+  .spinner {
+    width: 40px;
+    height: 40px;
+    left: 60%;
+    top: -150px;
+    transform: translateX(-50%);
+  }
+
+  .spinner-1 {
+    width: 40px;
+    height: 40px;
+    left: 30%;
+    top: 250px;
+    transform: translateX(-50%);
+  }
+
+  .spinner-2 {
+    width: 40px;
+    height: 40px;
+    left: -30%;
+    top: -280px;
+    transform: translateX(-50%);
+  }
+
+  .spinner-3 {
+    width: 30px;
+    height: 30px;
+    left: -30%;
+    top: 180px;
+    transform: translateX(-50%);
+  }
+
+  .homes {
+    margin-left: 200px;
   }
 }
+/* Media Query for screens up to 320px width */
+@media only screen and (max-width: 320px) {
+  
+  h3 {
+    font-size: 30px;
+    left: 100px;
+    top: 80px;
+  }
 
+  .home {
+    
+    height: 120vh;
+  }
+
+  h2 {
+    font-size: 20px;
+    left: 60px;
+    top: 360px;
+  }
+
+  .home h4 {
+    font-size: 14px;
+    left: 80px;
+    top: 380px;
+  }
+
+  .home p {
+    font-size: 14px;
+    left: 100px;
+    top: 340px;
+  }
+
+  .me {
+    margin-right: 80px;
+  }
+
+  .image {
+    bottom: 50px;
+    left: calc(50% - 5px);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: -100px;
+  }
+
+  .card-1 {
+    margin-top: -300px;
+  }
+
+  button {
+    width: 50px;
+    font-size: 9px;
+    top: -10px;
+    left: calc(50% - 30px);
+  }
+
+  .spinner {
+    width: 40px;
+    height: 40px;
+    left: 60%;
+    top: -120px;
+    transform: translateX(-50%);
+  }
+
+  .spinner-1 {
+    width: 40px;
+    height: 40px;
+    left: 30%;
+    top: 250px;
+    transform: translateX(-50%);
+  }
+
+  .spinner-2 {
+    width: 40px;
+    height: 40px;
+    left: -30%;
+    top: -260px;
+    transform: translateX(-50%);
+  }
+
+  .spinner-3 {
+    width: 30px;
+    height: 30px;
+    left: -30%;
+    top: 180px;
+    transform: translateX(-50%);
+  }
+
+ 
+}
+
+}
 
 
   

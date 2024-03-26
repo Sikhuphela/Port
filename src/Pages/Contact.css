@@ -346,4 +346,60 @@ margin-top: px
   font-size: 12px;
   margin-left: 90px;
  }
+
+}
+@media only screen and (max-width: 360px) {
+  .contact .rectangle{
+   width: 300px;
+    
+  }
+  .contact .rectangle-5{
+    width: 300px;
+    margin-left: -540px;
+  }
+  .contact .label {
+    font-size: 11px;
+  }
+  .contact .input-field{
+  width: 120px;
+
+  }
+  .contact .input-field-2{
+    width: 120px;
+    margin-left: -140px;
+    margin-top: -140px;
+  }
+  .contact .input-field-3{
+    width: 270px;
+  }
+  .contact .input-field-4{
+    width: 270px;
+    height: 170px; ;
+  }
+  .recaptcha-container{
+  margin-left: -740px;
+  margin-top: 550px;
+
+  }
+  .contact .submit-btn{
+  margin-left: -100px;
+  width: 80px;
+  }
+  .footer{
+    margin-top: 500px;
+    width: 200px;
+    margin-left: -560px;
+   }  
+  
+   .footer .copy{
+    font-size: 12px;
+    margin-left: 90px;
+   }
+   .footer-icon{
+
+    margin-left: 870px; 
+  }
+  iframe {
+    width: 260px;
+  }
 }

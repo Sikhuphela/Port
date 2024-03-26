@@ -432,6 +432,23 @@
     .tab-links {
       margin-right: 20px;
     }
+    @media only screen and (max-width: 360px) {
+      .card-2 {
+        width: 220px;
+        height: 320px;
+        left: 270px;
+        margin-top: -250px;
+        margin-bottom: 200px;
+      }
+      
+      .about .IMG {
+        height: 320px;
+        width: 220px;
+        left: 0px;
+        border-radius: 15px;
+      }
+      
+    }
   }
   
   
