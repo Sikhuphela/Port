@@ -10,7 +10,7 @@ function About() {
   const downloadCV = () => {
     const link = document.createElement('a');
     link.href = cv;
-    link.download = 'Aphiwe_Sikhuphela_CV.pdf';
+    link.download = 'Aphiwe_Sikhuphela_CV.pdf.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
