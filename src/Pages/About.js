@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './About.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import picImage1 from '../../src/components/Images/pic.jpg';
-import cv from '../../src/Pages/CV/Aphiwe_Sikhuphela_Professional_CV.pdf.pdf';
+import cv from '../../src/Pages/CV/Aphiwe_Sikhuphela_Professional_CV.pdf';
 
 function About() {
   const [activeTab, setActiveTab] = useState('skills');
@@ -10,7 +10,7 @@ function About() {
   const downloadCV = () => {
     const link = document.createElement('a');
     link.href = cv;
-    link.download = 'Aphiwe_Sikhuphela_CV.pdf.pdf';
+    link.download = 'Aphiwe_Sikhuphela_CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

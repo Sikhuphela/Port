@@ -163,7 +163,7 @@
 /* Update position and styles for the GitHub icon */
 .layer-1 a {
   margin-top: 150px;
-  color: #438192;
+  color: cyan;
   text-decoration: none;
   font-size: 23px;
   line-height: 60px;
@@ -238,7 +238,7 @@
 
 .layer-2 a {
   margin-top: 150px;
-  color: #438192;
+  color: cyan;
   text-decoration: none;
   font-size: 23px;
   line-height: 60px;
@@ -320,7 +320,7 @@
 
 .layer-3 a {
   margin-top: 180px;
-  color: #438192;
+  color: cyan;
   text-decoration: none;
   font-size: 23px;
   line-height: 60px;

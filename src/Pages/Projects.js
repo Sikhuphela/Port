@@ -4,7 +4,8 @@ import Portfolio from '../../src/components/Images/portfolio.png';
 import FAC from '../../src/components/Images/Financial-calculator.PNG';
 import tax from '../../src/components/Images/TaxCalculator.png';
 import './Projects.css';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaLink} from 'react-icons/fa';
+
 
 function Projects() {
   return (
@@ -33,8 +34,8 @@ function Projects() {
           <div className="work-1">
             <div className="layer-1">
               <p>User-friendly online portfolio showcasing my projects and skills. Designed with HTML, CSS, and JavaScript. Includes project descriptions, links to GitHub repositories, and contact information.</p>
-              <a href="https://github.com/Sikhuphela/Portfolio.git">
-                <FaGithub /> {/* GitHub icon */}
+              <a href="https://sikhuphela-aphiwe-portfolio.netlify.app/">
+                <FaLink/>
               </a>
             </div>
           </div>
@@ -48,7 +49,7 @@ function Projects() {
             <div className="layer-2">
               <p>Constructed using the Tkinter library in Python. Finance Calculator offers an intuitive interface for users to conduct investment and bond repayment calculations. This tool aids users in efficient financial management by providing a user-friendly platform for performing these calculations.</p>
               <a href="https://github.com/Sikhuphela/Financial-Calculator.git">
-                <FaGithub /> 
+              <FaGithub  />
               </a>
             </div>
           </div>
